@@ -77,7 +77,7 @@ plot_TohokuPacific1<-ggplot(data=Arame_TohokuPacific, aes(x=Cover, y=DW_g_m2,col
   theme(axis.text = element_text(color="black",size=23))+
   theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.7), 
         legend.title=element_text(size=23),legend.text =  element_text(size = 22))
-plot_pred_TohokuPacific1
+plot_TohokuPacific1
 
 #Model2
 dummy_TohokuPacific2<- expand.grid(Cover=seq(min(Arame_TohokuPacific$Cover),
