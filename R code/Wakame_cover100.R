@@ -13,7 +13,7 @@ names(Wakame)
 Wakame_TohokuPacific<-subset(Wakame,Wakame$Region=="TohokuPacific")
 Wakame_TohokuPacific$DW_g_m2
 
-###線形モデル#####
+###Linear model#####
 model1_TP<- nls(DW_g_m2~ a*Cover,
                 start = list(a=100),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -22,7 +22,7 @@ summary(model1_TP)
 AIC(model1_TP)
 BIC(model1_TP)
 
-####累乗モデル#####
+####Power model#####
 model2_TP<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -31,7 +31,7 @@ summary(model2_TP)
 AIC(model2_TP)
 BIC(model2_TP)
 
-####指数モデル#####
+####Exponential model#####
 model3_TP<- nls(DW_g_m2~ a*exp(b*Cover)-a,
                 start = list(a=40,b = 0.05), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -97,14 +97,14 @@ Wakame_TP100
 Wakame_NorthJapanSea<-subset(Wakame,Wakame$Region=="NorthJapanSea")
 
 
-####線形モデル#####
+####Linear model#####
 model1_NJ<- nls(DW_g_m2~ a*Cover,
                 start = list(a=50),data = Wakame_NorthJapanSea)
 summary(model1_NJ)
 AIC(model1_NJ)
 BIC(model1_NJ)
 
-####累乗モデル#####
+####Power model#####
 model2_NJ<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=1.444,b = 1.3181),data = Wakame_NorthJapanSea,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -113,7 +113,7 @@ summary(model2_NJ)
 AIC(model2_NJ)
 BIC(model2_NJ)
 
-####指数モデル#####
+####Exponential model#####
 model3_NJ<- nls(DW_g_m2~ a*exp(b*Cover)-a,
                 start = list(a=17.5,b =0.048), data = Wakame_NorthJapanSea,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -174,21 +174,21 @@ Wakame_CentralPacific<-subset(Wakame,Wakame$Region=="CentralPacific")
 
 Wakame_CentralPacific$DW_g_m2
 
-####線形モデル#####
+####Linear model#####
 model1_CH<- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = Wakame_CentralPacific)
 summary(model1_CH)
 AIC(model1_CH)
 BIC(model1_CH)
 
-####累乗モデル#####
+####Power model#####
 model2_CH<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=10,b = 1),data = Wakame_CentralPacific)
 summary(model2_CH)
 AIC(model2_CH)
 BIC(model2_CH)
 
-####指数モデル#####
+####Exponential model#####
 model3_CH<- nls(DW_g_m2~ a*exp(b*Cover)-a,
               start = list(a=50,b = 0.01), 
               control = list(maxiter = 50000, warnOnly = TRUE),

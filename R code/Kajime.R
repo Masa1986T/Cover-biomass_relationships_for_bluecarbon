@@ -1,5 +1,8 @@
+##########################################
+### R codes for Kajime (Ecklonia) #########
+##########################################
+
 rm(list=ls())
-library(nlme)
 library(dplyr)
 library(ggplot2)
 
@@ -14,21 +17,21 @@ kajime_CentralPacific$Season <-
   factor(kajime_CentralPacific$Season, levels = c("Flourish","Decline") )
 
 
-####線形モデル#####
+####Linear model#####
 model1_cp<- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = kajime_CentralPacific)
 summary(model1_cp)
 AIC(model1_cp)
 BIC(model1_cp)
 
-####累乗モデル#####
+####Power model#####
 model2_cp<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=10,b = 1),data = kajime_CentralPacific)
 summary(model2_cp)
 AIC(model2_cp)
 BIC(model2_cp)
 
-####指数モデル#####
+####Exponential model#####
 model3_cp<- nls(DW_g_m2~ a*exp(b*Cover)-a,
               start = list(a=100,b = 0.01), 
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -111,14 +114,14 @@ plot_CentralPacific3
 kajime_NorthJapanSea<-subset(kajime,kajime$Region=="NorthJapanSea")
 
 
-####線形モデル#####
+####Linear model#####
 model1_NJ<- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = kajime_NorthJapanSea)
 summary(model1_NJ)
 AIC(model1_NJ)
 BIC(model1_NJ)
 
-####累乗モデル#####
+####Power model#####
 model2_NJ<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = kajime_NorthJapanSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -127,7 +130,7 @@ summary(model2_NJ)
 AIC(model2_NJ)
 BIC(model2_NJ)
 
-####指数モデル#####
+####Exponential model#####
 model3_NJ<- nls(DW_g_m2~ a*exp(b*Cover),
               start = list(a=17.5,b =0.048), data = kajime_NorthJapanSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -217,14 +220,14 @@ plot_NorthJapanSea3
 kajime_SetoIslandSea<-subset(kajime,kajime$Region=="SetoIslandSea")
 
 
-####線形モデル#####
+####Linear model#####
 model1_ST<- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = kajime_SetoIslandSea)
 summary(model1_ST)
 AIC(model1_ST)
 BIC(model1_ST)
 
-####累乗モデル#####
+####Power model#####
 model2_ST<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = kajime_SetoIslandSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -233,7 +236,7 @@ summary(model2_ST)
 AIC(model2_ST)
 BIC(model2_ST)
 
-####指数モデル#####
+####Exponential model#####
 model3_ST<- nls(DW_g_m2~ a*exp(b*Cover),
               start = list(a=17.5,b =0.048), data = kajime_SetoIslandSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -316,21 +319,21 @@ kajime_SouthernPacific$Season <-
   factor(kajime_SouthernPacific$Season, levels = c("Flourish","Decline") )
 
 
-####線形モデル#####
+####Linear model#####
 model1_cp<- nls(DW_g_m2~ a*Cover,
                 start = list(a=50),data = kajime_SouthernPacific)
 summary(model1_cp)
 AIC(model1_cp)
 BIC(model1_cp)
 
-####累乗モデル#####
+####Power model#####
 model2_cp<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),data = kajime_SouthernPacific)
 summary(model2_cp)
 AIC(model2_cp)
 BIC(model2_cp)
 
-####指数モデル#####
+####Exponential model#####
 model3_cp<- nls(DW_g_m2~ a*exp(b*Cover),
                 start = list(a=50,b = 0.01), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -431,18 +434,18 @@ plot_SouthernPacific4
 #width 600 * Height 500 save
 
 
-####### SouthJapanSea  ##########データ不足##
+####### SouthJapanSea  #Data shortage############
 kajime_SouthJapanSea<-subset(kajime,kajime$Region=="SouthJapanSea")
 
 
-####線形モデル#####
+####Linear model#####
 model1 <- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = kajime_SouthJapanSea)
 summary(model1)
 AIC(model1)
 BIC(model1)
 
-####累乗モデル#####
+####Power model#####
 model2 <- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = kajime_SouthJapanSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -451,7 +454,7 @@ summary(model2)
 AIC(model2)
 BIC(model2)
 
-####指数モデル#####
+####Exponential model#####
 model3 <- nls(DW_g_m2~ a*exp(b*Cover),
               start = list(a=17.5,b =0.048), data = kajime_SouthJapanSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -539,14 +542,14 @@ dummy_SouthJapanSea$DW4<-pred_SouthJapanSea4
 kajime_EastChinaSea<-subset(kajime,kajime$Region=="EastChinaSea"&kajime$Jap_name=="Tsuruarame")
 kajime_EastChinaSea
 
-####線形モデル#####
+####Linear model#####
 model1_EC <- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = kajime_EastChinaSea)
 summary(model1_EC)
 AIC(model1_EC)
 BIC(model1_EC)
 
-####累乗モデル#####
+####Power model#####
 model2_EC<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = kajime_EastChinaSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -555,7 +558,7 @@ summary(model2_EC)
 AIC(model2_EC)
 BIC(model2_EC)
 
-####指数モデル#####
+####Exponential model#####
 model3_EC<- nls(DW_g_m2~ a*exp(b*Cover),
               start = list(a=17.5,b =0.048), data = kajime_EastChinaSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -648,14 +651,14 @@ plot_EastChinaSea3
 kajime_EastChinaSeaAN<-subset(kajime,kajime$Region=="EastChinaSea"&kajime$Jap_name=="Antokume")
 
 
-####線形モデル#####
+####Linear model#####
 model1_ECAN <- nls(DW_g_m2~ a*Cover,
                  start = list(a=50),data = kajime_EastChinaSeaAN)
 summary(model1_ECAN)
 AIC(model1_ECAN)
 BIC(model1_ECAN)
 
-####累乗モデル#####
+####Power model#####
 model2_ECAN<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=0.001,b = 2),data = kajime_EastChinaSeaAN,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -664,7 +667,7 @@ summary(model2_ECAN)
 AIC(model2_ECAN)
 BIC(model2_ECAN)
 
-####指数モデル#####
+####Exponential model#####
 model3_ECAN<- nls(DW_g_m2~ a*exp(b*Cover),
                 start = list(a=1,b =0.048), data = kajime_EastChinaSeaAN,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -789,9 +792,10 @@ plot_EastChinaSea<-ggplot(data=Kajime_EC,
         legend.title=element_text(size=23),legend.text =  element_text(size = 22))
 plot_EastChinaSea
 
-
-
+#################################################################
+###Comparison of the relationships for Kajime among regions#####
 ######Plot line  all species  ##########
+
 dummy_CentralPacific<- expand.grid(Cover=seq(min(kajime_CentralPacific$Cover),
                                              max(kajime_CentralPacific$Cover),length=1000))
 pred_CentralPacific<- predict(model2_cp,newdata=dummy_CentralPacific,se.fit=T)

@@ -1,3 +1,7 @@
+###############################################################
+### Estimated biomass of Arame (Eisenia) at 100% coverage ######
+###############################################################
+
 rm(list=ls())
 library(ggplot2)
 library(propagate)

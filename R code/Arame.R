@@ -1,6 +1,11 @@
+##########################################
+### R codes for Arame (Eisenia) #########
+##########################################
+
+
 rm(list=ls())
 library(ggplot2)
-library(propagate)
+
 library(dplyr)
 
 Arame<-read.csv("Arame.csv",stringsAsFactors = TRUE)

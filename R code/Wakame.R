@@ -1,5 +1,9 @@
+#######################################################
+###R codes for Wakame (Undaria pinnatifida)#########
+######################################################
+
+
 rm(list=ls())
-library(nlme)
 library(ggplot2)
 
 Wakame<-read.csv("Wakame.csv",stringsAsFactors = TRUE)
@@ -11,7 +15,7 @@ names(Wakame)
 Wakame_TohokuPacific<-subset(Wakame,Wakame$Region=="TohokuPacific")
 Wakame_TohokuPacific$DW_g_m2
 
-###線形モデル#####
+###Linear model#####
 model1_TP<- nls(DW_g_m2~ a*Cover,
                 start = list(a=100),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -20,7 +24,7 @@ summary(model1_TP)
 AIC(model1_TP)
 BIC(model1_TP)
 
-####累乗モデル#####
+####Power model#####
 model2_TP<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -29,7 +33,7 @@ summary(model2_TP)
 AIC(model2_TP)
 BIC(model2_TP)
 
-####指数モデル#####
+####Exponential model#####
 model3_TP<- nls(DW_g_m2~ a*exp(b*Cover),
                 start = list(a=40,b = 0.05), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -116,24 +120,6 @@ plot_TohokuPacific3<-ggplot(data=Wakame_TohokuPacific, aes(x=Cover, y=DW_g_m2,co
 plot_TohokuPacific3
 
 
-#Model4
-pred_TohokuPacific4<- predict(model4_TP,newdata=dummy_TohokuPacific,se.fit=T)
-dummy_TohokuPacific$DW4<-pred_TohokuPacific4
-
-plot_TohokuPacific4<-ggplot(data=Wakame_TohokuPacific, aes(x=Cover, y=DW_g_m2,color = Season)) + 
-  xlab("Coverage (%)")+ 
-  ylab(expression(paste("Biomass (dry weight g/ ",{m^2},")",sep="")))+
-  geom_point(size=3.5)+
-  scale_x_continuous(breaks=seq(0, 100,length=6),limits=c(0,100))+
-  scale_y_continuous(breaks=seq(0, 12000,length=7),limits=c(0,12000))+
-  scale_color_manual(labels = c("Flourish", "Decline"),values = c("#00AFBB","#FC4E07"))+
-  labs(color='Season')+
-  geom_line(data=dummy_TohokuPacific, aes(x=Cover, y=DW4),linewidth=1,color="black",inherit.aes = FALSE)+
-  theme_classic(base_size = 24, base_family = "sans")+
-  theme(axis.text = element_text(color="black",size=23))+
-  theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.7), 
-        legend.title=element_text(size=23),legend.text =  element_text(size = 22))
-plot_TohokuPacific4
 
 #width 600 * Height 500 save
 
@@ -141,14 +127,14 @@ plot_TohokuPacific4
 Wakame_NorthJapanSea<-subset(Wakame,Wakame$Region=="NorthJapanSea")
 
 
-####線形モデル#####
+####Linear model#####
 model1_NJ<- nls(DW_g_m2~ a*Cover,
                 start = list(a=50),data = Wakame_NorthJapanSea)
 summary(model1_NJ)
 AIC(model1_NJ)
 BIC(model1_NJ)
 
-####累乗モデル#####
+####Power model#####
 model2_NJ<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=1.444,b = 1.3181),data = Wakame_NorthJapanSea,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -157,7 +143,7 @@ summary(model2_NJ)
 AIC(model2_NJ)
 BIC(model2_NJ)
 
-####指数モデル#####
+####Exponential model#####
 model3_NJ<- nls(DW_g_m2~ a*exp(b*Cover),
                 start = list(a=17.5,b =0.048), data = Wakame_NorthJapanSea,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -176,13 +162,6 @@ summary(model3_NJ2)
 AIC(model3_NJ2)
 BIC(model3_NJ2)
 
-
-####二次関数モデル#####
-model4_NJ<- nls(DW_g_m2~ a*Cover^2 + b*Cover + c,
-                start = list(a=1, b=1,c=1), data =  Wakame_NorthJapanSea)
-summary(model4_NJ)
-AIC(model4_NJ)
-BIC(model4_NJ)
 
 
 #######Plot line  NorthJapanSea @ Sado##########
@@ -250,24 +229,6 @@ plot_NorthJapanSea3<-ggplot(data=Wakame_NorthJapanSea, aes(x=Cover, y=DW_g_m2,co
         legend.title=element_text(size=23),legend.text =  element_text(size = 22))
 plot_NorthJapanSea3
 
-#Model4
-pred_NorthJapanSea4<- predict(model4_NJ,newdata=dummy_NorthJapanSea,se.fit=T)
-dummy_NorthJapanSea$DW4<-pred_NorthJapanSea4
-
-plot_NorthJapanSea4<-ggplot(data=Wakame_NorthJapanSea, aes(x=Cover, y=DW_g_m2,color = Season)) + 
-  xlab("Coverage (%)")+ 
-  ylab(expression(paste("Biomass (dry weight g/ ",{m^2},")",sep="")))+
-  geom_point(size=3.5)+
-  scale_x_continuous(breaks=seq(0, 100,length=6),limits=c(0,100))+
-  scale_y_continuous(breaks=seq(0, 1800,length=7),limits=c(0,1800))+ 
-  scale_color_manual(labels = c("Flourish", "Decline"),values = c("#00AFBB","#FC4E07"))+
-  labs(color='Season')+
-  geom_line(data=dummy_NorthJapanSea, aes(x=Cover, y=DW4),linewidth=1,color="black",inherit.aes = FALSE)+
-  theme_classic(base_size = 24, base_family = "sans")+
-  theme(axis.text = element_text(color="black",size=23))+
-  theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.7), 
-        legend.title=element_text(size=23),legend.text =  element_text(size = 22))
-plot_NorthJapanSea4
 
 #width 600 * Height 500 save
 
@@ -277,21 +238,21 @@ Wakame_CentralPacific<-subset(Wakame,Wakame$Region=="CentralPacific")
 
 Wakame_CentralPacific$DW_g_m2
 
-####線形モデル#####
+####Linear model#####
 model1_CP<- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = Wakame_CentralPacific)
 summary(model1_CP)
 AIC(model1_CP)
 BIC(model1_CP)
 
-####累乗モデル#####
+####Power model#####
 model2_CP<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=10,b = 1),data = Wakame_CentralPacific)
 summary(model2_CP)
 AIC(model2_CP)
 BIC(model2_CP)
 
-####指数モデル#####
+####Exponential model#####
 model3_CP<- nls(DW_g_m2~ a*exp(b*Cover),
               start = list(a=50,b = 0.01), 
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -310,12 +271,6 @@ summary(model3_CP2)
 AIC(model3_CP2)
 BIC(model3_CP2)
 
-####二次関数モデル#####
-model4_CP<- nls(DW_g_m2~ a*Cover^2 + b*Cover + c,
-              start = list(a=1, b=1,c=1), data =  Wakame_CentralPacific)
-summary(model4_CP)
-AIC(model4_CP)
-BIC(model4_CP)
 
 
 
@@ -383,24 +338,10 @@ plot_CentralPacific3<-ggplot(data=Wakame_CentralPacific, aes(x=Cover, y=DW_g_m2,
 plot_CentralPacific3
 
 
-#Model4
-pred_CentralPacific4<- predict(model4_CP,newdata=dummy_CentralPacific,se.fit=T)
-dummy_CentralPacific$DW4<-pred_CentralPacific4
+########################################################################
+#######Comparison of the relationships for Wakame among regions#########
+########################################################################
 
-plot_CentralPacific4<-ggplot(data=Wakame_CentralPacific, aes(x=Cover, y=DW_g_m2,color = Season)) + 
-  xlab("Coverage (%)")+ 
-  ylab(expression(paste("Biomass (dry weight g/ ",{m^2},")",sep="")))+
-  geom_point(size=3.5)+
-  scale_x_continuous(breaks=seq(0, 100,length=6),limits=c(0,100))+
-  scale_y_continuous(breaks=seq(0, 6000,length=7),limits=c(0,6000))+
-  scale_color_manual(labels = c("Flourish", "Decline"),values = c("#00AFBB","#FC4E07"))+
-  labs(color='Season')+
-  geom_line(data=dummy_CentralPacific, aes(x=Cover, y=DW4),linewidth=1,color="black",inherit.aes = FALSE)+
-  theme_classic(base_size = 24, base_family = "sans")+
-  theme(axis.text = element_text(color="black",size=23))+
-  theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.7), 
-        legend.title=element_text(size=23),legend.text =  element_text(size = 22))
-plot_CentralPacific4
 
 #width 600 * Height 500 save
 dummy_TohokuPacific1<- expand.grid(Cover=seq(min(Wakame_TohokuPacific$Cover),

@@ -1,5 +1,8 @@
+#################################################################
+### Estimated biomass of Kombu (Saccharina) at 100% coverage ####
+#################################################################
+
 rm(list=ls())
-library(nlme)
 library(ggplot2)
 library(propagate)
 
@@ -12,7 +15,7 @@ names(Kombu)
 Kombu_Hokkaido<-subset(Kombu,Kombu$Jap_name=="Onikombu"|Kombu$Jap_name=="Makombu"&Kombu$Region=="Hokkaido")
 Kombu_Hokkaido$DW_g_m2
 
-###線形モデル#####
+###Linear model#####
 model1_HD<- nls(DW_g_m2~ a*Cover,
                 start = list(a=100),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -21,7 +24,7 @@ summary(model1_HD)
 AIC(model1_HD)
 BIC(model1_HD)
 
-####累乗モデル#####
+####Power model#####
 model2_HD<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -30,7 +33,7 @@ summary(model2_HD)
 AIC(model2_HD)
 BIC(model2_HD)
 
-####指数モデル#####
+####Exponential model#####
 model3_HD<- nls(DW_g_m2~ a*exp(b*Cover)-a,
                 start = list(a=40,b = 0.05), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -91,7 +94,7 @@ MakombuHD100<-rbind(pred1_HD100_makombu_vector,
 Kombu_Hokkaido_Naga<-subset(Kombu,Kombu$Jap_name=="Nagakombu"&Kombu$Region=="Hokkaido")
 Kombu_Hokkaido_Naga$DW_g_m2
 
-###線形モデル#####
+###Linear model#####
 model1_HDN<- nls(DW_g_m2~ a*Cover,
                 start = list(a=100),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -100,7 +103,7 @@ summary(model1_HDN)
 AIC(model1_HDN)
 BIC(model1_HDN)
 
-####累乗モデル#####
+####Power model#####
 model2_HDN<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -109,7 +112,7 @@ summary(model2_HDN)
 AIC(model2_HDN)
 BIC(model2_HDN)
 
-####指数モデル#####
+####Exponential model#####
 model3_HDN<- nls(DW_g_m2~ a*exp(b*Cover)-a,
                 start = list(a=40,b = 0.05), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -171,7 +174,7 @@ NagaHD100<-rbind(pred1_HD100_Naga_vector,
 Kombu_TohokuPacific<-subset(Kombu,Kombu$Region=="TohokuPacific")
 Kombu_TohokuPacific$DW_g_m2
 
-###線形モデル#####
+###Linear model#####
 model1_TP<- nls(DW_g_m2~ a*Cover,
                 start = list(a=100),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -180,7 +183,7 @@ summary(model1_TP)
 AIC(model1_TP)
 BIC(model1_TP)
 
-####累乗モデル#####
+####Power model#####
 model2_TP<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -189,7 +192,7 @@ summary(model2_TP)
 AIC(model2_TP)
 BIC(model2_TP)
 
-####指数モデル#####
+####Exponential model#####
 model3_TP<- nls(DW_g_m2~ a*exp(b*Cover)-a,
                 start = list(a=40,b = 0.05), 
                 control = list(maxiter = 50000, warnOnly = TRUE),

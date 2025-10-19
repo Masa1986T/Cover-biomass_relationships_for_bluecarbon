@@ -9,7 +9,7 @@ names(Smallalgae)
 Smallalgae_Hokkaido<-subset(Smallalgae,Smallalgae$Region=="Hokkaido")
 Smallalgae_Hokkaido$DW_g_m2
 
-###線形モデル#####
+###Linear model#####
 model1_HD<- nls(DW_g_m2~ a*Cover,
                 start = list(a=100),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -18,7 +18,7 @@ summary(model1_HD)
 AIC(model1_HD)
 BIC(model1_HD)
 
-####累乗モデル#####
+####Power model#####
 model2_HD<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -27,7 +27,7 @@ summary(model2_HD)
 AIC(model2_HD)
 BIC(model2_HD)
 
-####指数モデル#####
+####Exponential model#####
 model3_HD<- nls(DW_g_m2~ a*exp(b*Cover),
                 start = list(a=1,b = 0.05), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -47,12 +47,7 @@ AIC(model3_HD2)
 BIC(model3_HD2)
 
 
-####二次関数モデル#####
-model4_HD<- nls(DW_g_m2~ a*Cover^2 + b*Cover + c,
-                start = list(a=1, b=1,c=1), data =  Smallalgae_Hokkaido)
-summary(model4_HD)
-AIC(model4_HD)
-BIC(model4_HD)
+
 
 
 
@@ -123,24 +118,8 @@ plot_Hokkaido3<-ggplot(data=Smallalgae_Hokkaido, aes(x=Cover, y=DW_g_m2,color = 
 plot_Hokkaido3
 
 
-#Model4
-pred_Hokkaido4<- predict(model4_HD,newdata=dummy_Hokkaido,se.fit=T)
-dummy_Hokkaido$DW4<-pred_Hokkaido4
 
-plot_Hokkaido4<-ggplot(data=Smallalgae_Hokkaido, aes(x=Cover, y=DW_g_m2,color = Season)) + 
-  xlab("Coverage (%)")+ 
-  ylab(expression(paste("Biomass (dry weight g/ ",{m^2},")",sep="")))+
-  geom_point(size=3.5)+
-  scale_x_continuous(breaks=seq(0, 100,length=6),limits=c(0,100))+
-  scale_y_continuous(breaks=seq(0, 1500,length=5),limits=c(0,1500))+
-  scale_color_manual(labels = c("Flourish", "Decline"),values = c("#00AFBB","#FC4E07"))+
-  labs(color='Season')+
-  geom_line(data=dummy_Hokkaido, aes(x=Cover, y=DW4),linewidth=1,color="black",inherit.aes = FALSE)+
-  theme_classic(base_size = 24, base_family = "sans")+
-  theme(axis.text = element_text(color="black",size=23))+
-  theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.7), 
-        legend.title=element_text(size=23),legend.text =  element_text(size = 22))
-plot_Hokkaido4
+
 
 #width 600 * Height 500 save
 
@@ -150,14 +129,14 @@ Smallalgae_NorthJapanSea<-subset(Smallalgae,Smallalgae$Region=="NorthJapanSea",n
 Smallalgae_NorthJapanSea<-subset(Smallalgae_NorthJapanSea,Smallalgae_NorthJapanSea$Jap_name=="Keurujigusa; Habamodoki",na.rm = TRUE)
 
 
-####線形モデル#####
+####Linear model#####
 model1_NJ<- nls(DW_g_m2~ a*Cover,
                 start = list(a=50),data = Smallalgae_NorthJapanSea)
 summary(model1_NJ)
 AIC(model1_NJ)
 BIC(model1_NJ)
 
-####累乗モデル#####
+####Power model#####
 model2_NJ<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=1.444,b = 1.3181),data = Smallalgae_NorthJapanSea,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -166,7 +145,7 @@ summary(model2_NJ)
 AIC(model2_NJ)
 BIC(model2_NJ)
 
-####指数モデル#####
+####Exponential model#####
 model3_NJ<- nls(DW_g_m2~ a*exp(b*Cover),
                 start = list(a=17.5,b =0.048), data = Smallalgae_NorthJapanSea,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -185,12 +164,6 @@ summary(model3_NJ2)
 AIC(model3_NJ2)
 BIC(model3_NJ2)
 
-####二次関数モデル#####
-model4_NJ<- nls(DW_g_m2~ a*Cover^2 + b*Cover + c,
-                start = list(a=1, b=1,c=1), data =  Smallalgae_NorthJapanSea)
-summary(model4_NJ)
-AIC(model4_NJ)
-BIC(model4_NJ)
 
 
 #######Plot line  NorthJapanSea @ Sado##########
@@ -256,45 +229,27 @@ plot_NorthJapanSea3<-ggplot(data=Smallalgae_NorthJapanSea, aes(x=Cover, y=DW_g_m
         legend.title=element_text(size=23),legend.text =  element_text(size = 22))
 plot_NorthJapanSea3
 
-#Model4
-pred_NorthJapanSea4<- predict(model4_NJ,newdata=dummy_NorthJapanSea,se.fit=T)
-dummy_NorthJapanSea$DW4<-pred_NorthJapanSea4
-
-plot_NorthJapanSea4<-ggplot(data=Smallalgae_NorthJapanSea, aes(x=Cover, y=DW_g_m2,color = Season)) + 
-  xlab("Coverage (%)")+ 
-  ylab(expression(paste("Biomass (dry weight g/ ",{m^2},")",sep="")))+
-  geom_point(size=3.5)+
-  scale_x_continuous(breaks=seq(0, 100,length=6),limits=c(0,100))+
-  scale_y_continuous(breaks=seq(0, 1800,length=7),limits=c(0,1800))+ 
-  scale_color_manual(labels = c("Flourish", "Decline"),values = c("#00AFBB","#FC4E07"))+
-  labs(color='Season')+
-  geom_line(data=dummy_NorthJapanSea, aes(x=Cover, y=DW4),linewidth=1,color="black",inherit.aes = FALSE)+
-  theme_classic(base_size = 24, base_family = "sans")+
-  theme(axis.text = element_text(color="black",size=23))+
-  theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.7), 
-        legend.title=element_text(size=23),legend.text =  element_text(size = 22))
-plot_NorthJapanSea4
 
 #width 600 * Height 500 save
 
 ####### Central Pacific Kominato @ Umiuchiwa##########
 Smallalgae_Kominato<-subset(Smallalgae,Smallalgae$Point=="Kominato")
 
-####線形モデル#####
+####Linear model#####
 model1_cp<- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = Smallalgae_Kominato)
 summary(model1_cp)
 AIC(model1_cp)
 BIC(model1_cp)
 
-####累乗モデル#####
+####Power model#####
 model2_cp<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=10,b = 1),data = Smallalgae_Kominato)
 summary(model2_cp)
 AIC(model2_cp)
 BIC(model2_cp)
 
-####指数モデル#####
+####Exponential model#####
 model3_cp<- nls(DW_g_m2~ a*exp(b*Cover),
               start = list(a=50,b = 0.01), 
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -312,13 +267,6 @@ model3_cp2<- nls(DW_g_m2~ a*exp(b*Cover)-a,
 summary(model3_cp2)
 AIC(model3_cp2)
 BIC(model3_cp2)
-
-####二次関数モデル#####
-model4_cp<- nls(DW_g_m2~ a*Cover^2 + b*Cover + c,
-              start = list(a=1, b=1,c=1), data =  Smallalgae_Kominato)
-summary(model4_cp)
-AIC(model4_cp)
-BIC(model4_cp)
 
 
 
@@ -415,21 +363,21 @@ Smallalgae_Shimoda_Amizi<-subset(Smallalgae,Smallalgae$Jap_name=="Amizigusa")
 
 
 
-####線形モデル#####
+####Linear model#####
 model1_SA<- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = Smallalgae_Shimoda_Amizi)
 summary(model1_SA)
 AIC(model1_SA)
 BIC(model1_SA)
 
-####累乗モデル#####
+####Power model#####
 model2_SA<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=10,b = 1),data = Smallalgae_Shimoda_Amizi)
 summary(model2_SA)
 AIC(model2_SA)
 BIC(model2_SA)
 
-####指数モデル#####
+####Exponential model#####
 model3_SA<- nls(DW_g_m2~ a*exp(b*Cover),
               start = list(a=50,b = 0.01), 
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -447,13 +395,6 @@ model3_SA2<- nls(DW_g_m2~ a*exp(b*Cover)-a,
 summary(model3_SA2)
 AIC(model3_SA2)
 BIC(model3_SA2)
-
-####二次関数モデル#####
-model4_SA<- nls(DW_g_m2~ a*Cover^2 + b*Cover + c,
-              start = list(a=1, b=1,c=1), data =  Smallalgae_Shimoda_Amizi)
-summary(model4_SA)
-AIC(model4_SA)
-BIC(model4_SA)
 
 
 
@@ -522,24 +463,6 @@ plot_Shimoda_Amizi3<-ggplot(data=Smallalgae_Shimoda_Amizi, aes(x=Cover, y=DW_g_m
 plot_Shimoda_Amizi3
 
 
-#Model4
-pred_Shimoda_Amizi4<- predict(model4_SA,newdata=dummy_Shimoda_Amizi,se.fit=T)
-dummy_Shimoda_Amizi$DW4<-pred_Shimoda_Amizi4
-
-plot_Shimoda_Amizi4<-ggplot(data=Smallalgae_Shimoda_Amizi, aes(x=Cover, y=DW_g_m2,color = Season)) + 
-  xlab("Coverage (%)")+ 
-  ylab(expression(paste("Biomass (dry weight g/ ",{m^2},")",sep="")))+
-  geom_point(size=3.5)+
-  scale_x_continuous(breaks=seq(0, 100,length=6),limits=c(0,100))+
-  scale_y_continuous(breaks=seq(0, 1500,length=7),limits=c(0,1500))+
-  scale_color_manual(labels = c("Flourish", "Decline"),values = c("#00AFBB","#FC4E07"))+
-  labs(color='Season')+
-  geom_line(data=dummy_Shimoda_Amizi, aes(x=Cover, y=DW4),linewidth=1,color="black",inherit.aes = FALSE)+
-  theme_classic(base_size = 24, base_family = "sans")+
-  theme(axis.text = element_text(color="black",size=23))+
-  theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.7), 
-        legend.title=element_text(size=23),legend.text =  element_text(size = 22))
-plot_Shimoda_Amizi4
 
 #width 600 * Height 500 save
 
@@ -549,21 +472,21 @@ Smallalgae_Shimoda_koso<-subset(Smallalgae_Shimoda,Smallalgae_Shimoda$Class=="Rh
 
 
 
-####線形モデル#####
+####Linear model#####
 model1_SK<- nls(DW_g_m2~ a*Cover,
                 start = list(a=50),data = Smallalgae_Shimoda_koso)
 summary(model1_SK)
 AIC(model1_SK)
 BIC(model1_SK)
 
-####累乗モデル#####
+####Power model#####
 model2_SK<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),data = Smallalgae_Shimoda_koso)
 summary(model2_SK)
 AIC(model2_SK)
 BIC(model2_SK)
 
-####指数モデル#####
+####Exponential model#####
 model3_SK<- nls(DW_g_m2~ a*exp(b*Cover),
                 start = list(a=50,b = 0.01), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -583,12 +506,6 @@ AIC(model3_SK2)
 BIC(model3_SK2)
 
 
-####二次関数モデル#####
-model4_SK<- nls(DW_g_m2~ a*Cover^2 + b*Cover + c,
-                start = list(a=1, b=1,c=1), data =  Smallalgae_Shimoda_koso)
-summary(model4_SK)
-AIC(model4_SK)
-BIC(model4_SK)
 
 
 
@@ -681,14 +598,14 @@ plot_Shimoda_mix3
 Tsukasaami<-subset(Smallalgae,Smallalgae$Jap_name=="Tsukasaami")
 
 
-####線形モデル#####
+####Linear model#####
 model1_Tsuka<- nls(DW_g_m2~ a*Cover,
                   start = list(a=50),data = Tsukasaami)
 summary(model1_Tsuka)
 AIC(model1_Tsuka)
 BIC(model1_Tsuka)
 
-####累乗モデル#####
+####Power model#####
 model2_Tsuka<- nls(DW_g_m2~ a*Cover^b,
                   start = list(a=1.444,b = 1.3181),data = Tsukasaami,
                   control = list(maxiter = 50000, warnOnly = TRUE),
@@ -697,7 +614,7 @@ summary(model2_Tsuka)
 AIC(model2_Tsuka)
 BIC(model2_Tsuka)
 
-####指数モデル#####
+####Exponential model#####
 model3_Tsuka<- nls(DW_g_m2~ a*exp(b*Cover),
                   start = list(a=17.5,b =0.048), data = Tsukasaami,
                   control = list(maxiter = 50000, warnOnly = TRUE),
@@ -716,12 +633,6 @@ summary(model3_Tsuka2)
 AIC(model3_Tsuka2)
 BIC(model3_Tsuka2)
 
-####二次関数モデル#####
-model4_Tsuka<- nls(DW_g_m2~ a*Cover^2 + b*Cover + c,
-                  start = list(a=1, b=1,c=1), data =Tsukasaami)
-summary(model4_Tsuka)
-AIC(model4_Tsuka)
-BIC(model4_Tsuka)
 
 ######Plot line  Tsukasaami @ Tokushima##########
 #Model1
@@ -788,23 +699,71 @@ plot_Tsukasaami3<-ggplot(data=Tsukasaami, aes(x=Cover, y=DW_g_m2,color = Season)
         legend.title=element_text(size=23),legend.text =  element_text(size = 22))
 plot_Tsukasaami3
 
-#Model4
-pred_Tsukasaami4<- predict(model4_Tsuka,newdata=dummy_Tsukasaami,se.fit=T)
-dummy_Tsukasaami$DW4<-pred_Tsukasaami4
 
-plot_Tsukasaami4<-ggplot(data=Tsukasaami, aes(x=Cover, y=DW_g_m2,color = Season)) + 
-  xlab("Coverage (%)")+ 
-  ylab(expression(paste("Biomass (dry weight g/ ",{m^2},")",sep="")))+
-  geom_point(size=3.5)+
-  scale_x_continuous(breaks=seq(0, 100,length=6),limits=c(0,100))+
-  scale_y_continuous(breaks=seq(0, 6000,length=7),limits=c(0,6000))+ 
-  scale_color_manual(labels = c("Flourish", "Decline"),values = c("#00AFBB","#FC4E07"))+
-  labs(color='Season')+
-  geom_line(data=dummy_Tsukasaami, aes(x=Cover, y=DW4),linewidth=1,color="black",inherit.aes = FALSE)+
-  theme_classic(base_size = 24, base_family = "sans")+
-  theme(axis.text = element_text(color="black",size=23))+
-  theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.7), 
-        legend.title=element_text(size=23),legend.text =  element_text(size = 22))
-plot_Tsukasaami4
+
+
 
 #width 600 * Height 500 save
+
+#################################################################################
+#######Comparison of the relationships for small algae among regions##########
+##############################################################################
+
+dummy_Hokkaido1<- expand.grid(Cover=seq(min(Smallalgae_Hokkaido$Cover),
+                                        max(Smallalgae_Hokkaido$Cover),length=1000))
+pred_Hokkaido3<- predict(model3_HD2,newdata=dummy_Hokkaido1,se.fit=T)
+dummy_Hokkaido1$DW<-pred_Hokkaido3
+dummy_Hokkaido1$RegionClass<-"HD Anaaosa"
+
+dummy_NorthJapanSea1<- expand.grid(Cover=seq(min(Smallalgae_NorthJapanSea$Cover,na.rm=T),
+                                             max(Smallalgae_NorthJapanSea$Cover,na.rm=T),length=1000))
+pred_NorthJapanSea1<- predict(model1_NJ,newdata=dummy_NorthJapanSea1,se.fit=T)
+dummy_NorthJapanSea1$DW<-pred_NorthJapanSea1
+dummy_NorthJapanSea1$RegionClass<-"NJS Kogatakasso"
+
+dummy_Kominato1<- expand.grid(Cover=seq(min(Smallalgae_Kominato$Cover),
+                                        max(Smallalgae_Kominato$Cover),length=1000))
+pred_Kominato3<- predict(model3_cp2,newdata=dummy_Kominato1,se.fit=T)
+dummy_Kominato1$DW<-pred_Kominato3
+dummy_Kominato1$RegionClass<-"CP Umiuchiwa"
+
+
+dummy_Shimoda_Amizi1<- expand.grid(Cover=seq(min(Smallalgae_Shimoda_Amizi$Cover),
+                                             max(Smallalgae_Shimoda_Amizi$Cover),length=1000))
+pred_Shimoda_Amizi3<- predict(model3_SA2,newdata=dummy_Shimoda_Amizi1,se.fit=T)
+dummy_Shimoda_Amizi1$DW<-pred_Shimoda_Amizi3
+dummy_Shimoda_Amizi1$RegionClass<-"CP Amijigusa"
+
+dummy_Shimoda_koso1<- expand.grid(Cover=seq(min(Smallalgae_Shimoda_koso$Cover),
+                                            max(Smallalgae_Shimoda_koso$Cover),length=1000))
+pred_Shimoda_koso3<- predict(model3_SK2,newdata=dummy_Shimoda_koso1,se.fit=T)
+dummy_Shimoda_koso1$DW<-pred_Shimoda_koso3
+dummy_Shimoda_koso1$RegionClass<-"CP Tengusa"
+
+dummy_Tsukasaami1<- expand.grid(Cover=seq(min(Tsukasaami$Cover),
+                                          max(Tsukasaami$Cover),length=1000))
+pred_Tsukasaami3<- predict(model3_Tsuka2,newdata=dummy_Tsukasaami1,se.fit=T)
+dummy_Tsukasaami1$DW<-pred_Tsukasaami3
+dummy_Tsukasaami1$RegionClass<-"SP Tsukasaami"
+
+dummy_kogata<-rbind(dummy_Hokkaido1,dummy_NorthJapanSea1,dummy_Kominato1,
+                    dummy_Shimoda_Amizi1,dummy_Shimoda_koso1,dummy_Tsukasaami1)
+
+dummy_kogata$RegionClass<-factor(dummy_kogata$RegionClass, 
+                                 levels = c("HD Anaaosa","NJS Kogatakasso","CP Umiuchiwa",
+                                            "CP Amijigusa","CP Tengusa","SP Tsukasaami") )
+library(ggplot2)
+
+plot_Kogata_all<-ggplot(data=dummy_kogata, aes(x=Cover, y=DW,linetype = RegionClass,color= RegionClass)) + 
+  xlab("Coverage (%)")+ 
+  ylab(expression(paste("Biomass (dry weight g/ ",{m^2},")",sep="")))+
+  scale_x_continuous(breaks=seq(0, 100,length=6),limits=c(0,100))+
+  scale_y_continuous(breaks=seq(0, 1000,length=6),limits=c(0,1000))+ 
+  geom_line(linewidth=1)+
+  theme_classic(base_size = 24, base_family = "sans")+
+  theme(axis.text = element_text(color="black",size=23))+
+  theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.55), 
+        legend.title=element_text(size=16),legend.text =  element_text(size = 16))
+plot_Kogata_all
+
+

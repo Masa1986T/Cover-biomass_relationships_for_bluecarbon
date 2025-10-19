@@ -12,7 +12,7 @@ names(Hondawara)
 Hondawara_Hokkaido<-subset(Hondawara,Hondawara$Region=="Hokkaido")
 Hondawara_Hokkaido$DW_g_m2
 
-###線形モデル#####
+###Linear model#####
 model1_HD<- nls(DW_g_m2~ a*Cover,
                 start = list(a=100),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -21,7 +21,7 @@ summary(model1_HD)
 AIC(model1_HD)
 BIC(model1_HD)
 
-####累乗モデル#####
+####Power model#####
 model2_HD<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -30,7 +30,7 @@ summary(model2_HD)
 AIC(model2_HD)
 BIC(model2_HD)
 
-####指数モデル#####
+####Exponential model#####
 model3_HD<- nls(DW_g_m2~ a*exp(b*Cover)-a,
                 start = list(a=40,b = 0.05), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -95,14 +95,14 @@ Uganomoku_HD100
 Hondawara_NorthJapanSea<-subset(Hondawara,Hondawara$Region=="NorthJapanSea",na.rm = TRUE)
 
 
-####線形モデル#####
+####Linear model#####
 model1_NJ<- nls(DW_g_m2~ a*Cover,
                 start = list(a=50),data = Hondawara_NorthJapanSea)
 summary(model1_NJ)
 AIC(model1_NJ)
 BIC(model1_NJ)
 
-####累乗モデル#####
+####Power model#####
 model2_NJ<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=1.444,b = 1.3181),data = Hondawara_NorthJapanSea,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -111,7 +111,7 @@ summary(model2_NJ)
 AIC(model2_NJ)
 BIC(model2_NJ)
 
-####指数モデル#####
+####Exponential model#####
 model3_NJ<- nls(DW_g_m2~ a*exp(b*Cover)-a,
                 start = list(a=17.5,b =0.048), data = Hondawara_NorthJapanSea,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -173,21 +173,21 @@ Hondawara_NJS100
 ####### Central Pacific @ Hondawara##########
 Hondawara_CentralPacific<-subset(Hondawara,Hondawara$Region=="CentralPacific")
 
-####線形モデル#####
+####Linear model#####
 model1_cp<- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = Hondawara_CentralPacific)
 summary(model1_cp)
 AIC(model1_cp)
 BIC(model1_cp)
 
-####累乗モデル#####
+####Power model#####
 model2_cp<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=10,b = 1),data = Hondawara_CentralPacific)
 summary(model2_cp)
 AIC(model2_cp)
 BIC(model2_cp)
 
-####指数モデル#####
+####Exponential model#####
 model3_cp<- nls(DW_g_m2~ a*exp(b*Cover)-a,
               start = list(a=50,b = 0.01), 
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -251,14 +251,14 @@ Hondawara_CP100
 Hondawara_SetoIslandSea<-subset(Hondawara,Hondawara$Region=="SetoIslandSea")
 
 
-####線形モデル#####
+####Linear model#####
 model1_ST<- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = Hondawara_SetoIslandSea)
 summary(model1_ST)
 AIC(model1_ST)
 BIC(model1_ST)
 
-####累乗モデル#####
+####Power model#####
 model2_ST<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = Hondawara_SetoIslandSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -267,7 +267,7 @@ summary(model2_ST)
 AIC(model2_ST)
 BIC(model2_ST)
 
-####指数モデル#####
+####Exponential model#####
 model3_ST<- nls(DW_g_m2~ a*exp(b*Cover)-a,
               start = list(a=17.5,b =0.048), data = Hondawara_SetoIslandSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -325,14 +325,14 @@ Hondawara_ST100
 Hondawara_SouthJapanSea<-subset(Hondawara,Hondawara$Region=="SouthJapanSea")
 
 
-####線形モデル#####
+####Linear model#####
 model1_SJ <- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = Hondawara_SouthJapanSea)
 summary(model1_SJ)
 AIC(model1_SJ)
 BIC(model1_SJ)
 
-####累乗モデル#####
+####Power model#####
 model2_SJ <- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = Hondawara_SouthJapanSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -341,7 +341,7 @@ summary(model2_SJ)
 AIC(model2_SJ)
 BIC(model2_SJ)
 
-####指数モデル#####
+####Exponential model#####
 model3_SJ <- nls(DW_g_m2~ a*exp(b*Cover)-a,
               start = list(a=17.5,b =0.048), data = Hondawara_SouthJapanSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -400,14 +400,14 @@ Hondawara_SJ100
 Hondawara_EastChinaSea<-subset(Hondawara,Hondawara$Region=="EastChinaSea")
 
 
-####線形モデル#####
+####Linear model#####
 model1_EC <- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = Hondawara_EastChinaSea)
 summary(model1_EC)
 AIC(model1_EC)
 BIC(model1_EC)
 
-####累乗モデル#####
+####Power model#####
 model2_EC<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = Hondawara_EastChinaSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -416,7 +416,7 @@ summary(model2_EC)
 AIC(model2_EC)
 BIC(model2_EC)
 
-####指数モデル#####
+####Exponential model#####
 model3_EC<- nls(DW_g_m2~ a*exp(b*Cover)-a,
               start = list(a=17.5,b =0.048), data = Hondawara_EastChinaSea,
               control = list(maxiter = 50000, warnOnly = TRUE),

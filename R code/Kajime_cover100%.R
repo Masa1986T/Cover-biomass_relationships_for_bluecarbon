@@ -1,5 +1,9 @@
+##################################################################
+### Estimated biomass of Kajime (Ecklonia) at 100% coverage ######
+##################################################################
+
+
 rm(list = ls())
-library(nlme)
 library(dplyr)
 library(ggplot2)
 library(propagate)
@@ -22,7 +26,7 @@ summary(model1_cp)
 AIC(model1_cp)
 BIC(model1_cp)
 
-####Power function#####
+####Power model#####
 model2_cp<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=10,b = 1),data = kajime_CentralPacific)
 summary(model2_cp)
@@ -96,7 +100,7 @@ summary(model1_NJ)
 AIC(model1_NJ)
 BIC(model1_NJ)
 
-####Power function#####
+####Power model#####
 model2_NJ<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = kajime_NorthJapanSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -170,7 +174,7 @@ summary(model1_ST)
 AIC(model1_ST)
 BIC(model1_ST)
 
-####Power function#####
+####Power model#####
 model2_ST<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = kajime_SetoIslandSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -250,7 +254,7 @@ summary(model1_sp)
 AIC(model1_sp)
 BIC(model1_sp)
 
-####Power function#####
+####Power model#####
 model2_sp<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),data = kajime_SouthernPacific)
 summary(model2_sp)
@@ -319,7 +323,7 @@ summary(model1_EC)
 AIC(model1_EC)
 BIC(model1_EC)
 
-####Power function#####
+####Power model#####
 model2_EC<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = kajime_EastChinaSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -396,7 +400,7 @@ summary(model1_ECAN)
 AIC(model1_ECAN)
 BIC(model1_ECAN)
 
-####Power function#####
+####Power model#####
 model2_ECAN<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=0.001,b = 2),data = kajime_EastChinaSeaAN,
                 control = list(maxiter = 50000, warnOnly = TRUE),

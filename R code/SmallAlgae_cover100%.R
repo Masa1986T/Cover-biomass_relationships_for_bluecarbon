@@ -1,3 +1,7 @@
+###########################################################
+### Estimated biomass of Small algae at 100% coverage ######
+###########################################################
+
 rm(list=ls())
 library(ggplot2)
 
@@ -9,7 +13,7 @@ names(Smallalgae)
 Smallalgae_Hokkaido<-subset(Smallalgae,Smallalgae$Region=="Hokkaido")
 Smallalgae_Hokkaido$DW_g_m2
 
-###線形モデル#####
+###Linear model#####
 model1_HD<- nls(DW_g_m2~ a*Cover,
                 start = list(a=100),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -18,7 +22,7 @@ summary(model1_HD)
 AIC(model1_HD)
 BIC(model1_HD)
 
-####累乗モデル#####
+####Power model#####
 model2_HD<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -27,7 +31,7 @@ summary(model2_HD)
 AIC(model2_HD)
 BIC(model2_HD)
 
-####指数モデル#####
+####Exponential model#####
 model3_HD<- nls(DW_g_m2~ a*exp(b*Cover)-a,
                 start = list(a=1,b = 0.05), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -94,14 +98,14 @@ Smallalgae_NorthJapanSea<-subset(Smallalgae,Smallalgae$Region=="NorthJapanSea",n
 Smallalgae_NorthJapanSea<-subset(Smallalgae_NorthJapanSea,Smallalgae_NorthJapanSea$Jap_name=="Keurujigusa; Habamodoki",na.rm = TRUE)
 
 
-####線形モデル#####
+####Linear model#####
 model1_NJ<- nls(DW_g_m2~ a*Cover,
                 start = list(a=50),data = Smallalgae_NorthJapanSea)
 summary(model1_NJ)
 AIC(model1_NJ)
 BIC(model1_NJ)
 
-####累乗モデル#####
+####Power model#####
 model2_NJ<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=1.444,b = 1.3181),data = Smallalgae_NorthJapanSea,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -110,7 +114,7 @@ summary(model2_NJ)
 AIC(model2_NJ)
 BIC(model2_NJ)
 
-####指数モデル#####
+####Exponential model#####
 model3_NJ<- nls(DW_g_m2~ a*exp(b*Cover)-a,
                 start = list(a=17.5,b =0.048), data = Smallalgae_NorthJapanSea,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -168,21 +172,21 @@ Kogataso_NJS100
 ####### Central Pacific Kominato @ Smallalgae##########
 Smallalgae_Kominato<-subset(Smallalgae,Smallalgae$Point=="Kominato")
 
-####線形モデル#####
+####Linear model#####
 model1_cp<- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = Smallalgae_Kominato)
 summary(model1_cp)
 AIC(model1_cp)
 BIC(model1_cp)
 
-####累乗モデル#####
+####Power model#####
 model2_cp<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=10,b = 1),data = Smallalgae_Kominato)
 summary(model2_cp)
 AIC(model2_cp)
 BIC(model2_cp)
 
-####指数モデル#####
+####Exponential model#####
 model3_cp<- nls(DW_g_m2~ a*exp(b*Cover)-a,
               start = list(a=50,b = 0.01), 
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -250,21 +254,21 @@ Smallalgae_Shimoda_Amizi<-subset(Smallalgae,Smallalgae$Jap_name=="Amizigusa")
 
 
 
-####線形モデル#####
+####Linear model#####
 model1_SA<- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = Smallalgae_Shimoda_Amizi)
 summary(model1_SA)
 AIC(model1_SA)
 BIC(model1_SA)
 
-####累乗モデル#####
+####Power model#####
 model2_SA<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=10,b = 1),data = Smallalgae_Shimoda_Amizi)
 summary(model2_SA)
 AIC(model2_SA)
 BIC(model2_SA)
 
-####指数モデル#####
+####Exponential model#####
 model3_SA<- nls(DW_g_m2~ a*exp(b*Cover)-a,
               start = list(a=50,b = 0.01), 
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -330,21 +334,21 @@ Smallalgae_Shimoda_koso<-subset(Smallalgae_Shimoda,Smallalgae_Shimoda$Class=="Rh
 
 
 
-####線形モデル#####
+####Linear model#####
 model1_SK<- nls(DW_g_m2~ a*Cover,
                 start = list(a=50),data = Smallalgae_Shimoda_koso)
 summary(model1_SK)
 AIC(model1_SK)
 BIC(model1_SK)
 
-####累乗モデル#####
+####Power model#####
 model2_SK<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),data = Smallalgae_Shimoda_koso)
 summary(model2_SK)
 AIC(model2_SK)
 BIC(model2_SK)
 
-####指数モデル#####
+####Exponential model#####
 model3_SK<- nls(DW_g_m2~ a*exp(b*Cover)-a,
                 start = list(a=50,b = 0.01), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -408,14 +412,14 @@ Koso_SK100
 Tsukasaami<-subset(Smallalgae,Smallalgae$Jap_name=="Tsukasaami")
 
 
-####線形モデル#####
+####Linear model#####
 model1_Tsuka<- nls(DW_g_m2~ a*Cover,
                   start = list(a=50),data = Tsukasaami)
 summary(model1_Tsuka)
 AIC(model1_Tsuka)
 BIC(model1_Tsuka)
 
-####累乗モデル#####
+####Power model#####
 model2_Tsuka<- nls(DW_g_m2~ a*Cover^b,
                   start = list(a=1.444,b = 1.3181),data = Tsukasaami,
                   control = list(maxiter = 50000, warnOnly = TRUE),
@@ -424,7 +428,7 @@ summary(model2_Tsuka)
 AIC(model2_Tsuka)
 BIC(model2_Tsuka)
 
-####指数モデル#####
+####Exponential model#####
 model3_Tsuka<- nls(DW_g_m2~ a*exp(b*Cover)-a,
                   start = list(a=17.5,b =0.048), data = Tsukasaami,
                   control = list(maxiter = 50000, warnOnly = TRUE),

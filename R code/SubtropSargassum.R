@@ -1,5 +1,9 @@
+#################################################
+### R codes for subtropical Sargassecea #########
+#################################################
+
 rm(list=ls())
-library(nlme)
+
 library(ggplot2)
 
 SubtropHond<-read.csv("Surgassum_subtropical.csv",stringsAsFactors = TRUE)
@@ -12,14 +16,14 @@ names(SubtropHond)
 SubtropHond_SouthPacific<-subset(SubtropHond,SubtropHond$Region=="SouthPacific")
 
 
-####線形モデル#####
+####Linear model#####
 model1 <- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = SubtropHond_SouthPacific)
 summary(model1)
 AIC(model1)
 BIC(model1)
 
-####累乗モデル#####
+####Power model#####
 model2 <- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = SubtropHond_SouthPacific,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -28,7 +32,7 @@ summary(model2)
 AIC(model2)
 BIC(model2)
 
-####指数モデル#####
+####Exponential model#####
 model3 <- nls(DW_g_m2~ a*exp(b*Cover),
               start = list(a=17.5,b =0.048), data = SubtropHond_SouthPacific,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -47,14 +51,6 @@ summary(model3_2)
 AIC(model3_2)
 BIC(model3_2)
 
-####二次関数モデル#####
-model4 <- nls(DW_g_m2~ a*Cover^2 + b*Cover + c,
-              start = list(a=-0.2, b=20,c=-50), 
-              control = list(maxiter = 50000, warnOnly = TRUE),
-              data =  SubtropHond_SouthPacific)
-summary(model4)
-AIC(model4)
-BIC(model4)
 
 ######Plot line  SouthPacific ##########
 #Model1
@@ -121,24 +117,7 @@ plot_SouthPacific3<-ggplot(data=SubtropHond_SouthPacific, aes(x=Cover, y=DW_g_m2
         legend.title=element_text(size=23),legend.text =  element_text(size = 22))
 plot_SouthPacific3
 
-#Model4
-pred_SouthPacific4<- predict(model4,newdata=dummy_SouthPacific,se.fit=T)
-dummy_SouthPacific$DW4<-pred_SouthPacific4
 
-plot_SouthPacific4<-ggplot(data=SubtropHond_SouthPacific, aes(x=Cover, y=DW_g_m2,color = Season)) + 
-  xlab("Coverage (%)")+ 
-  ylab(expression(paste("Biomass (dry weight g/ ",{m^2},")",sep="")))+
-  geom_point(size=3.5)+
-  scale_x_continuous(breaks=seq(0, 100,length=6),limits=c(0,100))+
-  scale_y_continuous(breaks=seq(0, 4000,length=5),limits=c(0,4000))+ 
-  scale_color_manual(labels = c("Flourish", "Decline"),values = c("#00AFBB","#FC4E07"))+
-  labs(color='Season')+
-  geom_line(data=dummy_SouthPacific, aes(x=Cover, y=DW4),linewidth=1,color="black",inherit.aes = FALSE)+
-  theme_classic(base_size = 24, base_family = "sans")+
-  theme(axis.text = element_text(color="black",size=23))+
-  theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.7), 
-        legend.title=element_text(size=23),legend.text =  element_text(size = 22))
-plot_SouthPacific4
 
 #width 600 * Height 500 save
 
@@ -146,14 +125,14 @@ plot_SouthPacific4
 SubtropHond_EastChinaSea<-subset(SubtropHond,SubtropHond$Region=="EastChinaSea")
 
 
-####線形モデル#####
+####Linear model#####
 model1_EC <- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = SubtropHond_EastChinaSea)
 summary(model1_EC)
 AIC(model1_EC)
 BIC(model1_EC)
 
-####累乗モデル#####
+####Power model#####
 model2_EC<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = SubtropHond_EastChinaSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -162,7 +141,7 @@ summary(model2_EC)
 AIC(model2_EC)
 BIC(model2_EC)
 
-####指数モデル#####
+####Exponential model#####
 model3_EC<- nls(DW_g_m2~ a*exp(b*Cover),
               start = list(a=17.5,b =0.048), data = SubtropHond_EastChinaSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -181,14 +160,7 @@ summary(model3_EC2)
 AIC(model3_EC2)
 BIC(model3_EC2)
 
-####二次関数モデル#####
-model4_EC<- nls(DW_g_m2~ a*Cover^2 + b*Cover + c,
-              start = list(a=-0.2, b=20,c=-50), 
-              control = list(maxiter = 50000, warnOnly = TRUE),
-              data =  SubtropHond_EastChinaSea)
-summary(model4_EC)
-AIC(model4_EC)
-BIC(model4_EC)
+
 
 ######Plot line  EastChinaSea ##########
 #Model1
@@ -256,24 +228,7 @@ plot_EastChinaSea3<-ggplot(data=SubtropHond_EastChinaSea, aes(x=Cover, y=DW_g_m2
         legend.title=element_text(size=23),legend.text =  element_text(size = 22))
 plot_EastChinaSea3
 
-#Model4
-pred_EastChinaSea4<- predict(model4_EC,newdata=dummy_EastChinaSea,se.fit=T)
-dummy_EastChinaSea$DW4<-pred_EastChinaSea4
 
-plot_EastChinaSea4<-ggplot(data=SubtropHond_EastChinaSea, aes(x=Cover, y=DW_g_m2,color = Season)) + 
-  xlab("Coverage (%)")+ 
-  ylab(expression(paste("Biomass (dry weight g/ ",{m^2},")",sep="")))+
-  scale_x_continuous(breaks=seq(0, 100,length=6),limits=c(0,100))+
-  ylim(0,500)+
-  geom_point(size=3.5)+
-  scale_color_manual(labels = c("Flourish", "Decline"),values = c("#00AFBB","#FC4E07"))+
-  labs(color='Season')+
-  geom_line(data=dummy_EastChinaSea, aes(x=Cover, y=DW4),linewidth=1,color="black",inherit.aes = FALSE)+
-  theme_classic(base_size = 24, base_family = "sans")+
-  theme(axis.text = element_text(color="black",size=23))+
-  theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.7), 
-        legend.title=element_text(size=23),legend.text =  element_text(size = 22))
-plot_EastChinaSea4
 
 #width 600 * Height 500 save
 
@@ -281,14 +236,14 @@ plot_EastChinaSea4
 SubtropHond_Ryukyu<-subset(SubtropHond,SubtropHond$Region=="Ryukyu")
 
 
-####線形モデル#####
+####Linear model#####
 model1_RK <- nls(DW_g_m2~ a*Cover,
                  start = list(a=50),data = SubtropHond_Ryukyu)
 summary(model1_RK)
 AIC(model1_RK)
 BIC(model1_RK)
 
-####累乗モデル#####
+####Power model#####
 model2_RK<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=1.444,b = 1.3181),data = SubtropHond_Ryukyu,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -297,7 +252,7 @@ summary(model2_RK)
 AIC(model2_RK)
 BIC(model2_RK)
 
-####指数モデル#####
+####Exponential model#####
 model3_RK<- nls(DW_g_m2~ a*exp(b*Cover),
                 start = list(a=17.5,b =0.048), data = SubtropHond_Ryukyu,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -314,14 +269,7 @@ summary(model3_RK2)
 AIC(model3_RK2)
 BIC(model3_RK2)
 
-####二次関数モデル#####
-model4_RK<- nls(DW_g_m2~ a*Cover^2 + b*Cover + c,
-                start = list(a=-0.2, b=20,c=-50), 
-                control = list(maxiter = 50000, warnOnly = TRUE),
-                data =  SubtropHond_Ryukyu)
-summary(model4_RK)
-AIC(model4_RK)
-BIC(model4_RK)
+
 
 ######Plot line  Ryukyu ##########
 #Model1
@@ -386,23 +334,49 @@ plot_Ryukyu3<-ggplot(data=SubtropHond_Ryukyu, aes(x=Cover, y=DW_g_m2,color = Sea
         legend.title=element_text(size=23),legend.text =  element_text(size = 22))
 plot_Ryukyu3
 
-#Model4
-pred_Ryukyu4<- predict(model4_RK,newdata=dummy_Ryukyu,se.fit=T)
-dummy_Ryukyu$DW4<-pred_Ryukyu4
 
-plot_Ryukyu4<-ggplot(data=SubtropHond_Ryukyu, aes(x=Cover, y=DW_g_m2,color = Season)) + 
+
+#width 600 * Height 500 save
+
+######################################################################################
+####Comparison of the relationships for subtropical Sargassum among regions #####
+#######################################################################################
+
+dummy_SouthPacific1<- expand.grid(Cover=seq(min(SubtropHond_SouthPacific$Cover),
+                                            max(SubtropHond_SouthPacific$Cover),length=1000))
+pred_SouthPacific3<- predict(model3_2,newdata=dummy_SouthPacific1,se.fit=T)
+dummy_SouthPacific1$DW<-pred_SouthPacific3
+dummy_SouthPacific1$RegionClass<-"SP Hiragi/Kireba"
+
+
+dummy_EastChinaSea1<- expand.grid(Cover=seq(min(SubtropHond_EastChinaSea$Cover),
+                                            max(SubtropHond_EastChinaSea$Cover),length=1000))
+pred_EastChinaSea3<- predict(model3_EC2,newdata=dummy_EastChinaSea1,se.fit=T)
+dummy_EastChinaSea1$DW<-pred_EastChinaSea3
+dummy_EastChinaSea1$RegionClass<-"ECS Hodawara mix"
+
+dummy_Ryukyu1<- expand.grid(Cover=seq(min(SubtropHond_Ryukyu$Cover),
+                                      max(SubtropHond_Ryukyu$Cover),length=1000))
+pred_Ryukyu1<- predict(model1_RK,newdata=dummy_Ryukyu1,se.fit=T)
+dummy_Ryukyu1$DW<-pred_Ryukyu1
+dummy_Ryukyu1$RegionClass<-"RK Hodawara mix"
+
+dummy_STHondawara<-rbind(dummy_SouthPacific1,dummy_EastChinaSea1,dummy_Ryukyu1)
+
+dummy_STHondawara$RegionClass<-factor(dummy_STHondawara$RegionClass, 
+                                      levels = c("SP Hiragi/Kireba","ECS Hodawara mix","RK Hodawara mix") )
+library(ggplot2)
+
+plot_STHondawara_all<-ggplot(data=dummy_STHondawara, aes(x=Cover, y=DW,linetype = RegionClass,color= RegionClass)) + 
   xlab("Coverage (%)")+ 
   ylab(expression(paste("Biomass (dry weight g/ ",{m^2},")",sep="")))+
   scale_x_continuous(breaks=seq(0, 100,length=6),limits=c(0,100))+
-  ylim(0,500)+
-  geom_point(size=3.5)+
-  scale_color_manual(labels = c("Flourish", "Decline"),values = c("#00AFBB","#FC4E07"))+
-  labs(color='Season')+
-  geom_line(data=dummy_Ryukyu, aes(x=Cover, y=DW4),linewidth=1,color="black",inherit.aes = FALSE)+
+  scale_y_continuous(breaks=seq(0, 1500,length=7),limits=c(0,1500))+ 
+  geom_line(linewidth=1.25)+
   theme_classic(base_size = 24, base_family = "sans")+
   theme(axis.text = element_text(color="black",size=23))+
-  theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.7), 
-        legend.title=element_text(size=23),legend.text =  element_text(size = 22))
-plot_Ryukyu4
+  theme(legend.justification=c(0.02,0.02), legend.position=c(0.05,0.55), 
+        legend.title=element_text(size=20),legend.text =  element_text(size = 20))
+plot_STHondawara_all
 
-#width 600 * Height 500 save
+

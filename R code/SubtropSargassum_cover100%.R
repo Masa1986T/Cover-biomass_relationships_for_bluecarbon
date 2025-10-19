@@ -1,5 +1,9 @@
+####################################################################
+### Estimated biomass of Subtropical Sagassum at 100% coverage ######
+####################################################################
+
+
 rm(list=ls())
-library(nlme)
 library(dplyr)
 library(ggplot2)
 library(propagate)
@@ -14,14 +18,14 @@ names(SubtropHond)
 SubtropHond_SouthPacific<-subset(SubtropHond,SubtropHond$Region=="SouthPacific")
 
 
-####線形モデル#####
+####Linear model#####
 model1_SP <- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = SubtropHond_SouthPacific)
 summary(model1_SP)
 AIC(model1_SP)
 BIC(model1_SP)
 
-####累乗モデル#####
+####Power model#####
 model2_SP <- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = SubtropHond_SouthPacific,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -30,7 +34,7 @@ summary(model2_SP)
 AIC(model2_SP)
 BIC(model2_SP)
 
-####指数モデル#####
+####Exponential model#####
 model3_SP <- nls(DW_g_m2~ a*exp(b*Cover)-a,
               start = list(a=17.5,b =0.048), data = SubtropHond_SouthPacific,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -92,14 +96,14 @@ SubtropHond_SP100
 SubtropHond_EastChinaSea<-subset(SubtropHond,SubtropHond$Region=="EastChinaSea")
 
 
-####線形モデル#####
+####Linear model#####
 model1_EC <- nls(DW_g_m2~ a*Cover,
               start = list(a=50),data = SubtropHond_EastChinaSea)
 summary(model1_EC)
 AIC(model1_EC)
 BIC(model1_EC)
 
-####累乗モデル#####
+####Power model#####
 model2_EC<- nls(DW_g_m2~ a*Cover^b,
               start = list(a=1.444,b = 1.3181),data = SubtropHond_EastChinaSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -108,7 +112,7 @@ summary(model2_EC)
 AIC(model2_EC)
 BIC(model2_EC)
 
-####指数モデル#####
+####Exponential model#####
 model3_EC<- nls(DW_g_m2~ a*exp(b*Cover)-a,
               start = list(a=17.5,b =0.048), data = SubtropHond_EastChinaSea,
               control = list(maxiter = 50000, warnOnly = TRUE),
@@ -166,14 +170,14 @@ SubtropHond_EC100
 SubtropHond_Ryukyu<-subset(SubtropHond,SubtropHond$Region=="Ryukyu")
 
 
-####線形モデル#####
+####Linear model#####
 model1_RK <- nls(DW_g_m2~ a*Cover,
                  start = list(a=50),data = SubtropHond_Ryukyu)
 summary(model1_RK)
 AIC(model1_RK)
 BIC(model1_RK)
 
-####累乗モデル#####
+####Power model#####
 model2_RK<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=1.444,b = 1.3181),data = SubtropHond_Ryukyu,
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -182,7 +186,7 @@ summary(model2_RK)
 AIC(model2_RK)
 BIC(model2_RK)
 
-####指数モデル#####
+####Exponential model#####
 model3_RK<- nls(DW_g_m2~ a*exp(b*Cover)-a,
                 start = list(a=17.5,b =0.048), data = SubtropHond_Ryukyu,
                 control = list(maxiter = 50000, warnOnly = TRUE),

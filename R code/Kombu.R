@@ -1,5 +1,9 @@
+##########################################
+### R codes for Kombu (Saccharina) #######
+##########################################
+
+
 rm(list=ls())
-library(nlme)
 library(ggplot2)
 
 Kombu<-read.csv("Kombu.csv",stringsAsFactors = TRUE)
@@ -11,7 +15,7 @@ names(Kombu)
 Kombu_Hokkaido<-subset(Kombu,Kombu$Jap_name=="Onikombu"|Kombu$Jap_name=="Makombu"&Kombu$Region=="Hokkaido")
 Kombu_Hokkaido$DW_g_m2
 
-###線形モデル#####
+###Linear model#####
 model1_HD1<- glm(DW_g_m2~ Cover,
                 data = Kombu_Hokkaido)
 
@@ -23,7 +27,7 @@ summary(model1_HD)
 AIC(model1_HD)
 BIC(model1_HD)
 
-####累乗モデル#####
+####Power model#####
 model2_HD<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -32,7 +36,7 @@ summary(model2_HD)
 AIC(model2_HD)
 BIC(model2_HD)
 
-####指数モデル#####
+####Exponential model#####
 model3_HD1<- nls(DW_g_m2~ a*exp(b*Cover),
                 start = list(a=40,b = 0.05), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -123,7 +127,7 @@ plot_Hokkaido3
 Kombu_Hokkaido_Naga<-subset(Kombu,Kombu$Jap_name=="Nagakombu"&Kombu$Region=="Hokkaido")
 Kombu_Hokkaido_Naga$DW_g_m2
 
-###線形モデル#####
+###Linear model#####
 model1_HDN<- nls(DW_g_m2~ a*Cover,
                 start = list(a=100),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -132,7 +136,7 @@ summary(model1_HDN)
 AIC(model1_HDN)
 BIC(model1_HDN)
 
-####累乗モデル#####
+####Power model#####
 model2_HDN<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -141,7 +145,7 @@ summary(model2_HDN)
 AIC(model2_HDN)
 BIC(model2_HDN)
 
-####指数モデル#####
+####Exponential model#####
 model3_HDN1<- nls(DW_g_m2~ a*exp(b*Cover),
                 start = list(a=40,b = 0.05), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -264,7 +268,7 @@ plot_Hokkaido_Ma_Naga
 Kombu_TohokuPacific<-subset(Kombu,Kombu$Region=="TohokuPacific")
 Kombu_TohokuPacific$DW_g_m2
 
-###線形モデル#####
+###Linear model#####
 model1_TP<- nls(DW_g_m2~ a*Cover,
                 start = list(a=100),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -273,7 +277,7 @@ summary(model1_TP)
 AIC(model1_TP)
 BIC(model1_TP)
 
-####累乗モデル#####
+####Power model#####
 model2_TP<- nls(DW_g_m2~ a*Cover^b,
                 start = list(a=10,b = 1),
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -282,7 +286,7 @@ summary(model2_TP)
 AIC(model2_TP)
 BIC(model2_TP)
 
-####指数モデル#####
+####Power model#####
 model3_TP1<- nls(DW_g_m2~ a*exp(b*Cover),
                 start = list(a=40,b = 0.05), 
                 control = list(maxiter = 50000, warnOnly = TRUE),
@@ -371,7 +375,10 @@ plot_TohokuPacific3
 
 #width 600 * Height 500 save
 
-######Plot line  all species  ##########
+#################################################################
+###Comparison of the relationships for Kombu among regions#####
+#################################################################
+
 dummy_Hokkaido1<- expand.grid(Cover=seq(min(Kombu_Hokkaido$Cover),
                                        max(Kombu_Hokkaido$Cover),length=1000))
 pred_Hokkaido3<- predict(model3_HD2,newdata=dummy_Hokkaido1,se.fit=T)
