@@ -1,5 +1,4 @@
 library(usethis)
-use_git_config(user.name="Masa1986T", )#
 
 use_git() 
 # The use_git() function will add a Git repository (often referred to as a “repo”) to an existing RStudio project.
