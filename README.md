@@ -8,21 +8,28 @@ This repository provides datasets and R code for the analysis of cover-biomass r
 
 The raw data described below are housed in the folder "Data".
 
-* Make figures for relationships between cover and biomass for each seaweeds or surfgrass (xxx) : xxx.csv
-* 
+/ Data of cover and biomass for each seaweeds or surfgrass (xxx) at each site : xxx.csv
+
+/ All of the data for each seaweeds or surfgrass at each site :Kaiso\_data.xlsx
+
+
 
 ## Plots
 
 The folder "Plots" includes all results of figures obtained by running "xxx.R" and "xxx\_cover100%.R".
 
+/ Figures for the  relationship between cover and biomass (i.e., model (mod z (z = 1, 2, or 3))) for each seaweeds or surfgrass (xxx) at site y  : xxx\_y\_mod z.svg
+
+/ Figures for the estimated biomass of all the models at 100% coverage for each seaweeds or surfgrass (xxx) :xxx100\_Regiontype\_1200.svg
 
 
-## R codes
 
-This repository shares the following programming codes to make figures or run the analyses.
+## R code
+
+The folder "R code" shares the following programming codes to mrun the analyses and make figures.
 
 * Perform statistical analysis and make figures for relationships between cover and biomass of each species (xxx) for each region : xxx.R
-* Make figures for estimated biomass of each species (xxx) at 100% cover: xxx\_cover100%.R
+* Make figures for estimated biomass of each species (xxx) at 100% cover : xxx\_cover100%.R
 
 
 
