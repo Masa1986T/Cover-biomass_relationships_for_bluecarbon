@@ -1,0 +1,79 @@
+﻿Species,Jap_name,Date,Season,Region,Site,Point,Lat,Long,Depth,Cover,DW_g_m2,Source,Person
+Ecklonia cava,Kajime,2020/10/29,Decline,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,4.7,70,661.5300312,BC_project,Onitsuka
+Ecklonia cava,Kajime,20201029,Decline,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,4,40,372.258122,BC_project,Onitsuka
+Ecklonia cava,Kajime,20201029,Decline,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,4.5,30,636.1022093,BC_project,Onitsuka
+Ecklonia cava,Kajime,20201029,Decline,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,5.2,20,80.13022516,BC_project,Onitsuka
+Ecklonia cava,Kajime,20201029,Decline,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,5,30,459.3676962,BC_project,Onitsuka
+Ecklonia cava,Kajime,20201029,Decline,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,4.4,24,318.9372177,BC_project,Onitsuka
+Ecklonia cava,Kajime,20210622,Flourish,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,4.2,20,219.5297162,BC_project,Onitsuka
+Ecklonia cava,Kajime,20210622,Flourish,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,3.9,40,571.8315032,BC_project,Onitsuka
+Ecklonia cava,Kajime,20210622,Flourish,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,4.6,50,403.6489771,BC_project,Onitsuka
+Ecklonia cava,Kajime,20210622,Flourish,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,4.6,50,436.1934648,BC_project,Onitsuka
+Ecklonia cava,Kajime,20210622,Flourish,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,5.6,60,336.1347162,BC_project,Onitsuka
+Ecklonia cava,Kajime,2021/6/22,Flourish,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,5.4,70,680.0527803,BC_project,Onitsuka
+Ecklonia cava,Kajime,2021/12/2,Decline,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,5.9,5,90.69494467,BC_project,Onitsuka
+Ecklonia cava,Kajime,2021/12/2,Decline,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,6.4,10,84.44496041,BC_project,Onitsuka
+Ecklonia cava,Kajime,2021/12/2,Decline,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,4.7,5,5.336710512,BC_project,Onitsuka
+Ecklonia cava,Kajime,2021/12/2,Decline,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,4.9,5,20.73849085,BC_project,Onitsuka
+Ecklonia cava,Kajime,2021/12/2,Decline,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,4.5,10,62.0937991,BC_project,Onitsuka
+Ecklonia cava,Kajime,2021/12/2,Decline,CentralPacific,Sagami,Nagai_Tsubune,35.19508763,139.5959293,5.2,5,85.67520662,BC_project,Onitsuka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.34008056,138.5151611,12,3,0,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.34008056,138.5151611,20,10,28.68,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.3152,138.4638083,5,40,256.839,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/21,Flourish,NorthJapanSea,Sado,L-04,38.29629444,138.4336889,12,0,59.409,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/21,Flourish,NorthJapanSea,Sado,L-04,38.29629444,138.4336889,20,0,24.216,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.22785556,138.3783972,5,10,100.752,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.23261944,138.3708444,7,20,130.98,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.23261944,138.3708444,20,5,5.043,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19752222,138.3173056,20,3,3.891,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15138611,138.3011278,1,0,9.753,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15540278,138.2914028,7,20,44.094,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15540278,138.2914028,12,0,7.515,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12501111,138.2677028,12,3,5.928,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12501111,138.2677028,20,60,125.223,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09764167,138.2455278,20,50,153.87,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06920278,138.2357194,12,0,33.099,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06920278,138.2357194,20,10,41.298,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/6/3,Flourish,NorthJapanSea,Sado,L-15,38.03732222,138.2158889,12,30,129.678,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/6/3,Flourish,NorthJapanSea,Sado,L-15,38.03732222,138.2158889,20,25,58.746,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01936389,138.2234639,5,20,265.536,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01893056,138.2179694,12,30,161.352,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01893056,138.2179694,20,70,99.621,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/14,Flourish,NorthJapanSea,Sado,L-25,37.82634722,138.2072278,3,40,230.997,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2018/5/14,Flourish,NorthJapanSea,Sado,L-25,37.82634722,138.2072278,5,5,28.215,Sadochiku_mobachosa,Hamaoka
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2004/7/8,Flourish,NorthJapanSea,Wajima,Kaishicho,37.85054,136.92321,12,80,1792,JuuyoushicchiDB,Shimabukuro
+Ecklonia cava ssp. stolonifera ,Tsuruarame,1995/10/29,Flourish,NorthJapanSea,Aomori,OhmazakiWariishi,41.52878,140.945738,6,100,1106.047805,Kirihara et al. (2006) Suisanzoshoku,Sato
+Ecklonia cava ssp. stolonifera ,Tsuruarame,1989/6/27,Flourish,NorthJapanSea,Himi,Unami,36.908327,137.018269,8,100,884.8382437,Terawaki et al. (1999) Sorui,Sato
+Ecklonia cava ssp. Kurome,Kurome,2006/5/22,Flourish,SouthJapanSea,Nagato,Ohmijima,34.42222,131.19583,15,20,289.2,JuuyoushicchiDB,Shimabukuro
+Ecklonia cava ssp. Kurome,Kurome,2020/10/28,Flourish,SouthJapanSea,Shimonoseki,Mitsuse,34.2234,130.9179,4.9,50,1936,BC_project,Abe
+Ecklonia cava ssp. Kurome,Kurome,2021/6/1,Flourish,SouthJapanSea,Shimonoseki,Mitsuse,34.2234,130.9179,5.5,80,987.48,BC_project,Abe
+Ecklonia cava,Kajime,2006/5/10,Flourish,SetoIslandSea,Himeji,Yanoshima,34.65863776,134.5281704,NA,60,1000,JuuyoushicchiDB,Shimabukuro
+Ecklonia cava ssp. Kurome,Kurome,2022/5/16,Flourish,SetoIslandSea,SunoOhshima,Katashima,33.918,132.4626,2.5,100,913.56,BC_project,Shimabukuro
+Ecklonia cava ssp. Kurome,Kurome,2022/5/16,Flourish,SetoIslandSea,SunoOhshima,Katashima,33.918,132.4626,2.6,100,938.64,BC_project,Shimabukuro
+Ecklonia cava ssp. Kurome,Kurome,2022/5/16,Flourish,SetoIslandSea,SunoOhshima,Katashima,33.918,132.4626,2.2,100,460.96,BC_project,Shimabukuro
+Ecklonia cava ssp. Kurome,Kurome,2012/6/22,Flourish,SetoIslandSea,Yanai,Heigun_Kohna,33.7959,132.2421,5.75,70,830,Yoshida et al. (2020),Yatsuya
+Ecklonia cava ssp. Kurome,Kurome,2012/6/8,Flourish,SetoIslandSea,Yanai,Heigun_Matsura ,33.7711,132.2547,1.25,100,1280,Yoshida et al. (2020),Yatsuya
+Ecklonia cava ssp. Kurome,Kurome,2012/6/23,Flourish,SetoIslandSea,SunoOhshima,Katashima_Tokkuribana,33.9147,132.465,1,100,1140,Yoshida et al. (2020),Yatsuya
+Ecklonia cava ssp. Kurome,Kurome,2012/6/23,Flourish,SetoIslandSea,SunoOhshima,Katashima_Hagibana,33.918,132.4626,0.75,100,1320,Yoshida et al. (2020),Yatsuya
+Ecklonia cava ssp. Kurome,Kurome,2012/7/10,Flourish,SetoIslandSea,SunoOhshima,Yashiro-jima_Matsugahana,33.9517,132.4384,3.25,55,740,Yoshida et al. (2020),Yatsuya
+Ecklonia cava ssp. Kurome,Kurome,2012/7/10,Flourish,SetoIslandSea,SunoOhshima,Yashirojima_Hiramatsu,33.9505,132.4134,5.25,7.5,90,Yoshida et al. (2020),Yatsuya
+Ecklonia cava ssp. Kurome,Kurome,2004/6/4,Flourish,SouthernPacific,EhimeIkata,Ohba,33.36443,132.66853,NA,70,1120,JuuyoushicchiDB,Shimabukuro
+Ecklonia cava ssp. Kurome,Kurome,2003/7/1,Flourish,SouthernPacific,KochiToyo,NonePort,33.4938,134.26259,NA,85,1542.2064,JuuyoushicchiDB,Shimabukuro
+Ecklonia cava,Kajime,2022/5/19,Flourish,SouthernPacific,TokushimaMinami,Abe,33.7871,134.6496,4.5,10,253.386,BC_project,Yoshimi
+Ecklonia cava,Kajime,2023/10/24,Decline,SouthernPacific,TokushimaMinami,Izari,33.8004216,134.6694406,NA,40,431.49484,BC_project,Ogura
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2019/4/22,Flourish,EastChinaSea,Kitakyushu,Wakamatsu,33.93381047,130.7315941,9.5,1,12.21961615,J-Power_Wakamatsu,Kuwae
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2020/5/14,Flourish,EastChinaSea,Kitakyushu,Wakamatsu,33.93381047,130.7315941,11.1,20,40.4039263,J-Power_Wakamatsu,Kuwae
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2020/5/14,Flourish,EastChinaSea,Kitakyushu,Wakamatsu,33.93381047,130.7315941,11,50,38.55903856,J-Power_Wakamatsu,Kuwae
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2020/5/14,Flourish,EastChinaSea,Kitakyushu,Wakamatsu,33.93381047,130.7315941,11,20,21.42857017,J-Power_Wakamatsu,Kuwae
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2020/5/14,Flourish,EastChinaSea,Kitakyushu,Wakamatsu,33.93381047,130.7315941,9.5,1,3.815864926,J-Power_Wakamatsu,Kuwae
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2021/5/1,Flourish,EastChinaSea,Kitakyushu,Wakamatsu,33.93381047,130.7315941,6,1,11.45865526,J-Power_Wakamatsu,Kuwae
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2021/5/1,Flourish,EastChinaSea,Kitakyushu,Wakamatsu,33.93381047,130.7315941,11,30,68.95544433,J-Power_Wakamatsu,Kuwae
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2021/5/1,Flourish,EastChinaSea,Kitakyushu,Wakamatsu,33.93381047,130.7315941,6,10,3.238507972,J-Power_Wakamatsu,Kuwae
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2021/5/1,Flourish,EastChinaSea,Kitakyushu,Wakamatsu,33.93381047,130.7315941,11,60,252.28508,J-Power_Wakamatsu,Kuwae
+Ecklonia cava ssp. stolonifera ,Tsuruarame,2021/5/1,Flourish,EastChinaSea,Kitakyushu,Wakamatsu,33.93381047,130.7315941,11,40,122.116526,J-Power_Wakamatsu,Kuwae
+Ecklonia radicosa,Antokume,2022/4/1,Flourish,EastChinaSea,Nagasaki,Nozakijima,33.18621393,129.1381572,9,4,2,BC_project,Kiyomoto
+Ecklonia radicosa,Antokume,2022/4/1,Flourish,EastChinaSea,Nagasaki,Nozakijima,33.18621393,129.1381572,9,20,6,BC_project,Kiyomoto
+Ecklonia radicosa,Antokume,2022/4/1,Flourish,EastChinaSea,Nagasaki,Nozakijima,33.18621393,129.1381572,9,40,9,BC_project,Kiyomoto
+Ecklonia radicosa,Antokume,2022/4/1,Flourish,EastChinaSea,Nagasaki,Nozakijima,33.18621393,129.1381572,9,50,15,BC_project,Kiyomoto
+Ecklonia radicosa,Antokume,2022/4/1,Flourish,EastChinaSea,Nagasaki,Nozakijima,33.18621393,129.1381572,9,80,40,BC_project,Kiyomoto
+Ecklonia radicosa,Antokume,2022/4/1,Flourish,EastChinaSea,Nagasaki,Nozakijima,33.18621393,129.1381572,9,90,61,BC_project,Kiyomoto

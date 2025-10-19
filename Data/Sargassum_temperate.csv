@@ -1,0 +1,188 @@
+﻿Date,Season,Region,Site_j,Site,Point,Lat,Long,Depth,Type,Jap_name,Species,Cover,DW_g_m2,Source,Person
+2023/7/17,Flourish,Hokkaido,北海道厚岸町愛冠,Akkeshi,Aikappu,43.022435,144.838022,0.6,Uganomoku,Uganomoku,Cystoseira hakodatensis,100,902.8976,BC_project,Sato
+2023/7/17,Flourish,Hokkaido,北海道厚岸町愛冠,Akkeshi,Aikappu,43.022435,144.838022,0.5,Uganomoku,Uganomoku,Cystoseira hakodatensis,80,1276.5104,BC_project,Sato
+2023/7/17,Flourish,Hokkaido,北海道厚岸町愛冠,Akkeshi,Aikappu,43.022435,144.838022,0.6,Uganomoku,Uganomoku,Cystoseira hakodatensis,60,840.6288,BC_project,Sato
+2023/7/17,Flourish,Hokkaido,北海道厚岸町愛冠,Akkeshi,Aikappu,43.022435,144.838022,0.5,Uganomoku,Uganomoku,Cystoseira hakodatensis,20,249.0752,BC_project,Sato
+2023/7/17,Flourish,Hokkaido,北海道厚岸町愛冠,Akkeshi,Aikappu,43.022435,144.838022,0.6,Uganomoku,Uganomoku,Cystoseira hakodatensis,40,1027.4352,BC_project,Sato
+2023/7/17,Flourish,Hokkaido,北海道厚岸町愛冠,Akkeshi,Aikappu,43.022435,144.838022,0.2,Uganomoku,Uganomoku,Cystoseira hakodatensis,10,140.1048,BC_project,Sato
+2018/5/14,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-01,38.33215278,138.5138389,1,Mix,"Nokogirimoku; Fushisujimoku, Yanagimoku; Yoremoku",,84,1188.612,Sadochiku_mobachosa,Hamaoka
+2018/5/14,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-01,38.33215278,138.5138389,3,Mix,"Nokogirimoku; Fushisujimoku, Isomoku; Yoremoku",,60,374.628,Sadochiku_mobachosa,Hamaoka
+2018/5/14,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-01,38.33215278,138.5138389,5,Mix,"Togemoku; Fushisujimoku,Yanagimoku; Yoremoku",,61,433.047,Sadochiku_mobachosa,Hamaoka
+2018/5/14,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-01,38.34008056,138.5151611,7,Mix,,,80,987.936,Sadochiku_mobachosa,Hamaoka
+2018/5/14,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-01,38.34008056,138.5151611,12,Mix,,,50,350.46,Sadochiku_mobachosa,Hamaoka
+2018/5/14,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-01,38.34008056,138.5151611,20,Mix,,,60,298.554,Sadochiku_mobachosa,Hamaoka
+2018/5/30,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-02,38.33652222,138.4832889,1,Mix,,,90,1333.137,Sadochiku_mobachosa,Hamaoka
+2018/5/30,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-02,38.33652222,138.4832889,3,Mix,,,80,685.659,Sadochiku_mobachosa,Hamaoka
+2018/5/30,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-02,38.33652222,138.4832889,5,Mix,,,3,,Sadochiku_mobachosa,Hamaoka
+2018/5/30,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-02,38.33793333,138.4826694,7,Mix,,,20,95.526,Sadochiku_mobachosa,Hamaoka
+2018/5/30,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-02,38.33793333,138.4826694,12,Mix,,,3,12.882,Sadochiku_mobachosa,Hamaoka
+2018/5/30,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-02,38.33793333,138.4826694,20,Mix,,,5,32.685,Sadochiku_mobachosa,Hamaoka
+2018/5/15,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-03,38.3152,138.4638083,1,Mix,,,10,153.366,Sadochiku_mobachosa,Hamaoka
+2018/5/15,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-03,38.3152,138.4638083,3,Mix,,,73,427.074,Sadochiku_mobachosa,Hamaoka
+2018/5/15,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-03,38.3152,138.4638083,5,Mix,,,10,103.098,Sadochiku_mobachosa,Hamaoka
+2018/5/15,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-03,38.31825556,138.4590611,7,Mix,,,23,293.655,Sadochiku_mobachosa,Hamaoka
+2018/5/15,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-03,38.31825556,138.4590611,12,Mix,,,50,349.911,Sadochiku_mobachosa,Hamaoka
+2018/5/15,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-03,38.31825556,138.4590611,20,Mix,,,9,21.954,Sadochiku_mobachosa,Hamaoka
+2018/5/15,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-04,38.29206944,138.4428056,1,Mix,,,30,91.05,Sadochiku_mobachosa,Hamaoka
+2018/5/15,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-04,38.29206944,138.4428056,3,Mix,,,40,465.435,Sadochiku_mobachosa,Hamaoka
+2018/5/15,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-04,38.29206944,138.4428056,5,Mix,,,73,531.819,Sadochiku_mobachosa,Hamaoka
+2018/5/15,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-04,38.29629444,138.4336889,7,Mix,,,93,636.111,Sadochiku_mobachosa,Hamaoka
+2018/5/15,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-04,38.29629444,138.4336889,12,Mix,,,43,262.656,Sadochiku_mobachosa,Hamaoka
+2018/5/15,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-04,38.29629444,138.4336889,20,Mix,,,50,215.979,Sadochiku_mobachosa,Hamaoka
+2018/5/22,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-05,38.25659722,138.430575,1,Mix,,,100,1040.514,Sadochiku_mobachosa,Hamaoka
+2018/5/22,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-05,38.29629444,138.4336889,3,Mix,,,,,Sadochiku_mobachosa,Hamaoka
+2018/5/22,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-05,38.29629444,138.4336889,5,Mix,,,,,Sadochiku_mobachosa,Hamaoka
+2018/5/22,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-05,38.26551667,138.422675,7,Mix,,,,,Sadochiku_mobachosa,Hamaoka
+2018/5/22,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-05,38.26551667,138.422675,12,Mix,,,,,Sadochiku_mobachosa,Hamaoka
+2018/5/22,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-05,38.26551667,138.422675,20,Mix,,,,,Sadochiku_mobachosa,Hamaoka
+2018/5/22,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-06,38.25124444,138.3976333,1,Mix,,,50,516.303,Sadochiku_mobachosa,Hamaoka
+2018/5/22,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-06,38.25124444,138.3976333,3,Mix,,,6,32.547,Sadochiku_mobachosa,Hamaoka
+2018/5/22,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-06,38.25124444,138.3976333,5,Mix,,,,,Sadochiku_mobachosa,Hamaoka
+2018/5/22,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-06,38.25251389,138.3965,7,Mix,,,23,89.199,Sadochiku_mobachosa,Hamaoka
+2018/5/23,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-06,38.25251389,138.3965,12,Mix,,,40,185.793,Sadochiku_mobachosa,Hamaoka
+2018/5/23,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-06,38.25251389,138.3965,20,Mix,,,20,67.719,Sadochiku_mobachosa,Hamaoka
+2018/5/21,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-07,38.22785556,138.3783972,1,Mix,,,40,54.951,Sadochiku_mobachosa,Hamaoka
+2018/5/21,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-07,38.22785556,138.3783972,3,Mix,,,20,67.728,Sadochiku_mobachosa,Hamaoka
+2018/5/21,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-07,38.22785556,138.3783972,5,Mix,,,5,47.397,Sadochiku_mobachosa,Hamaoka
+2018/5/21,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-07,38.23261944,138.3708444,7,Mix,,,33,420.663,Sadochiku_mobachosa,Hamaoka
+2018/5/21,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-07,38.23261944,138.3708444,12,Mix,,,35,126.288,Sadochiku_mobachosa,Hamaoka
+2018/5/21,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-07,38.23261944,138.3708444,20,Mix,,,30,158.475,Sadochiku_mobachosa,Hamaoka
+2018/5/21,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-08,38.20982778,138.356575,1,Mix,,,43,472.863,Sadochiku_mobachosa,Hamaoka
+2018/5/21,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-08,38.20982778,138.356575,3,Mix,,,16,32.388,Sadochiku_mobachosa,Hamaoka
+2018/5/21,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-08,38.20982778,138.356575,5,Mix,,,,,Sadochiku_mobachosa,Hamaoka
+2018/5/21,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-08,38.21321111,138.3506444,7,Mix,,,3,35.976,Sadochiku_mobachosa,Hamaoka
+2018/5/28,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-08,38.21321111,138.3506444,12,Mix,,,63,255.465,Sadochiku_mobachosa,Hamaoka
+2018/5/28,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-08,38.21321111,138.3506444,20,Mix,,,43,302.706,Sadochiku_mobachosa,Hamaoka
+2018/5/27,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-09,38.19295,138.3254028,1,Mix,,,10,107.085,Sadochiku_mobachosa,Hamaoka
+2018/5/27,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-09,38.19295,138.3254028,3,Mix,,,23,156.261,Sadochiku_mobachosa,Hamaoka
+2018/5/27,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-09,38.19295,138.3254028,5,Mix,,,20,127.002,Sadochiku_mobachosa,Hamaoka
+2018/5/27,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-09,38.19752222,138.3173056,7,Mix,,,6,22.335,Sadochiku_mobachosa,Hamaoka
+2018/5/27,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-09,38.19752222,138.3173056,12,Mix,,,11,29.556,Sadochiku_mobachosa,Hamaoka
+2018/5/27,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-09,38.19752222,138.3173056,20,Mix,,,63,314.262,Sadochiku_mobachosa,Hamaoka
+2018/5/26,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-10,38.17259167,138.3132111,1,Mix,,,73,1096.986,Sadochiku_mobachosa,Hamaoka
+2018/5/26,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-10,38.17259167,138.3132111,3,Mix,,,70,132.288,Sadochiku_mobachosa,Hamaoka
+2018/5/26,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-10,38.17259167,138.3132111,5,Mix,,,10,239.181,Sadochiku_mobachosa,Hamaoka
+2018/5/26,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-10,38.17536111,138.3080806,7,Mix,,,,,Sadochiku_mobachosa,Hamaoka
+2018/5/27,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-10,38.17536111,138.3080806,12,Mix,,,20,107.472,Sadochiku_mobachosa,Hamaoka
+2018/5/27,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-10,38.17536111,138.3080806,20,Mix,,,10,118.605,Sadochiku_mobachosa,Hamaoka
+2018/5/26,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-11,38.15138611,138.3011278,1,Mix,,,96,1622.847,Sadochiku_mobachosa,Hamaoka
+2018/5/26,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-11,38.15138611,138.3011278,3,Mix,,,63,722.43,Sadochiku_mobachosa,Hamaoka
+2018/5/26,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-11,38.15138611,138.3011278,5,Mix,,,63,420.795,Sadochiku_mobachosa,Hamaoka
+2018/5/26,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-11,38.15540278,138.2914028,7,Mix,,,53,371.286,Sadochiku_mobachosa,Hamaoka
+2018/5/26,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-11,38.15540278,138.2914028,12,Mix,,,76,542.088,Sadochiku_mobachosa,Hamaoka
+2018/5/26,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-11,38.15540278,138.2914028,20,Mix,,,50,312.681,Sadochiku_mobachosa,Hamaoka
+2018/5/29,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-12,38.12241389,138.2723556,1,Mix,,,40,183.945,Sadochiku_mobachosa,Hamaoka
+2018/5/29,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-12,38.12241389,138.2723556,3,Mix,,,,,Sadochiku_mobachosa,Hamaoka
+2018/5/29,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-12,38.12241389,138.2723556,5,Mix,,,3,11.664,Sadochiku_mobachosa,Hamaoka
+2018/5/29,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-12,38.12501111,138.2677028,7,Mix,,,6,21.018,Sadochiku_mobachosa,Hamaoka
+2018/5/29,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-12,38.12501111,138.2677028,12,Mix,,,40,241.812,Sadochiku_mobachosa,Hamaoka
+2018/5/29,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-12,38.12501111,138.2677028,20,Mix,,,14,55.224,Sadochiku_mobachosa,Hamaoka
+2018/5/29,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-13,38.09613889,138.2488194,1,Mix,,,6,38.112,Sadochiku_mobachosa,Hamaoka
+2018/5/29,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-13,38.09613889,138.2488194,3,Mix,,,70,453.324,Sadochiku_mobachosa,Hamaoka
+2018/5/20,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-13,38.09613889,138.2488194,5,Mix,,,53,573.81,Sadochiku_mobachosa,Hamaoka
+2018/5/20,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-13,38.09764167,138.2455278,7,Mix,,,56,592.368,Sadochiku_mobachosa,Hamaoka
+2018/5/29,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-13,38.09764167,138.2455278,12,Mix,,,50,252.333,Sadochiku_mobachosa,Hamaoka
+2018/5/29,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-13,38.09764167,138.2455278,20,Mix,,,3,18.126,Sadochiku_mobachosa,Hamaoka
+2018/5/25,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-14,38.06805278,138.2402806,1,Mix,,,3,2.322,Sadochiku_mobachosa,Hamaoka
+2018/5/25,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-14,38.06805278,138.2402806,3,Mix,,,23,156.798,Sadochiku_mobachosa,Hamaoka
+2018/5/25,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-14,38.06805278,138.2402806,5,Mix,,,5,56.1,Sadochiku_mobachosa,Hamaoka
+2018/5/25,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-14,38.06920278,138.2357194,7,Mix,,,30,188.226,Sadochiku_mobachosa,Hamaoka
+2018/5/25,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-14,38.06920278,138.2357194,12,Mix,,,5,22.008,Sadochiku_mobachosa,Hamaoka
+2018/5/25,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-14,38.06920278,138.2357194,20,Mix,,,13,105.024,Sadochiku_mobachosa,Hamaoka
+2018/5/24,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-15,38.03761111,138.2352139,1,Mix,,,3,63.852,Sadochiku_mobachosa,Hamaoka
+2018/5/24,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-15,38.03761111,138.2352139,3,Mix,,,5,11.649,Sadochiku_mobachosa,Hamaoka
+2018/5/24,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-15,38.03761111,138.2352139,5,Mix,,,30,90.441,Sadochiku_mobachosa,Hamaoka
+2018/5/24,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-15,38.03732222,138.2158889,7,Mix,,,70,411.147,Sadochiku_mobachosa,Hamaoka
+2018/6/3,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-15,38.03732222,138.2158889,12,Mix,,,40,194.304,Sadochiku_mobachosa,Hamaoka
+2018/6/3,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-15,38.03732222,138.2158889,20,Mix,,,73,185.049,Sadochiku_mobachosa,Hamaoka
+2018/5/24,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-16,38.01936389,138.2234639,1,Mix,,,20,59.073,Sadochiku_mobachosa,Hamaoka
+2018/5/24,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-16,38.01936389,138.2234639,3,Mix,,,30,95.178,Sadochiku_mobachosa,Hamaoka
+2018/5/24,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-16,38.01936389,138.2234639,5,Mix,,,13,109.29,Sadochiku_mobachosa,Hamaoka
+2018/5/24,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-16,38.01893056,138.2179694,7,Mix,,,10,137.388,Sadochiku_mobachosa,Hamaoka
+2018/5/24,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-16,38.01893056,138.2179694,12,Mix,,,20,20.262,Sadochiku_mobachosa,Hamaoka
+2018/5/24,Flourish,NorthJapanSea,新潟県佐渡市,Sado,L-16,38.01893056,138.2179694,20,Mix,,,6,179.217,Sadochiku_mobachosa,Hamaoka
+2023/6/27,Flourish,CentralPacific,千葉県鴨川市小湊,Kamogawa,Kominato,35.12060586,140.1846858,2,Oobamoku,Oobamoku,Sargassum ringgoldianum,100,3118.728778,BC_project,Sato
+2023/6/27,Flourish,CentralPacific,千葉県鴨川市小湊,Kamogawa,Kominato,35.12060586,140.1846858,2.5,Oobamoku,Oobamoku,Sargassum ringgoldianum,70,960,BC_project,Sato
+2023/6/27,Flourish,CentralPacific,千葉県鴨川市小湊,Kamogawa,Kominato,35.12060586,140.1846858,2.5,Oobamoku,Oobamoku,Sargassum ringgoldianum,40,768,BC_project,Sato
+2023/6/27,Flourish,CentralPacific,千葉県鴨川市小湊,Kamogawa,Kominato,35.12060586,140.1846858,2.5,Oobamoku,Oobamoku,Sargassum ringgoldianum,15,48,BC_project,Sato
+2023/6/27,Flourish,CentralPacific,千葉県鴨川市小湊,Kamogawa,Kominato,35.12060586,140.1846858,2.5,Oobamoku,Oobamoku,Sargassum ringgoldianum,100,1690.52588,BC_project,Sato
+2023/6/27,Flourish,CentralPacific,千葉県鴨川市小湊,Kamogawa,Kominato,35.12060586,140.1846858,1,Oobamoku,Oobamoku,Sargassum ringgoldianum,50,1232,BC_project,Sato
+2020/9/16,Decline,SouthJapanSea,山口県下関市豊北町粟野（平瀬）,Shimonoseki,山口県下関市豊北町粟野（平瀬）,34.3536,130.9461,1.6,Yatsumatamoku,Yatsumatamoku,Sargassum patens,60,678.9,BC_project,Abe
+2020/10/30,Decline,SouthJapanSea,山口県下関市豊浦町川棚（石島南岸）,Shimonoseki,山口県下関市豊浦町川棚（石島南岸）,34.1684,130.8957,5.4,Nokogirimoku,Nokogirimoku,Sargassum macrocarpum,40,485.6,BC_project,Abe
+2021/10/28,Decline,SouthJapanSea,山口県下関市豊浦町川棚（石島南岸）,Shimonoseki,山口県下関市豊浦町川棚（石島南岸）,34.1678,130.8961,7,Nokogirimoku,Nokogirimoku,Sargassum macrocarpum,40,572.7,BC_project,Abe
+2021/11/17,Decline,SouthJapanSea,山口県下関市豊北町粟野（大浦マルセ）,Shimonoseki,山口県下関市豊北町粟野（大浦マルセ）,34.353,130.9395,2.7,Yatsumatamoku,Yatsumatamoku,Sargassum patens,60,323.5,BC_project,Abe
+2002/9/7,Decline,SouthJapanSea,島根県隠岐郡都万村,Oki,島根県隠岐郡都万村,36.19128625,133.212235,NA,Yatsumatamoku,Yatsumatamoku,Sargassum patens,60,808,BC_project,Abe
+2021/4/23,Flourish,SouthJapanSea,山口県下関市豊北町粟野（平瀬）,Shimonoseki,山口県下関市豊北町粟野（平瀬）,34.3574,130.9552,3.1,Yatsumatamoku,Yatsumatamoku,Sargassum patens,90,1233.08,BC_project,Abe
+2021/4/27,Flourish,SouthJapanSea,山口県下関市豊浦町小串（女島北西）,Shimonoseki,山口県下関市豊浦町小串（女島北西）,34.1798,130.9021,5.6,Akamoku,Akamoku,Sargassum horneri ,80,2676.3,BC_project,Abe
+2021/5/18,Flourish,SouthJapanSea,山口県下関市豊浦町川棚（石島南岸）,Shimonoseki,山口県下関市豊浦町川棚（石島南岸）,34.1685,130.8954,7.6,Nokogirimoku,Nokogirimoku,Sargassum macrocarpum,50,1548,BC_project,Abe
+2006/5/22,Flourish,SouthJapanSea,山口県長門市仙崎青海島 ,Shimonoseki,山口県長門市仙崎青海島 ,34.42461405,131.1885268,NA,Narasamo,Narasamo,Sargassum nigrifolium,50,721.2,JuuyoushicchiDB,Shimabukuro
+2021/4/17,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-20ｍ,33.79943867,132.2475134,,Mix,,,40,558,PARI,Watanabe
+2021/4/17,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-30ｍ,33.79943867,132.2475134,,Mix,,,80,1009.8,PARI,Watanabe
+2021/4/17,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-40ｍ,33.79943867,132.2475134,,Mix,,,80,1249.2,PARI,Watanabe
+2021/4/17,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-50ｍ,33.79943867,132.2475134,,Mix,,,80,3486.6,PARI,Watanabe
+2021/4/17,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-60ｍ,33.79943867,132.2475134,,Mix,,,75,618,PARI,Watanabe
+2021/5/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-50ｍ,33.79943867,132.2475134,,Mix,,,80,525.6,PARI,Watanabe
+2021/5/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-60ｍ,33.79943867,132.2475134,,Mix,,,50,375,PARI,Watanabe
+2021/5/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-70ｍ,33.79943867,132.2475134,,Mix,,,43,273,PARI,Watanabe
+2021/5/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-80ｍ,33.79943867,132.2475134,,Mix,,,43,546,PARI,Watanabe
+2021/5/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-90ｍ,33.79943867,132.2475134,,Mix,,,80,984,PARI,Watanabe
+2021/6/10,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-40ｍ,33.79943867,132.2475134,,Mix,,,50,901.2,PARI,Watanabe
+2021/6/10,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-50ｍ,33.79943867,132.2475134,,Mix,,,5,218.4,PARI,Watanabe
+2021/6/10,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-60ｍ,33.79943867,132.2475134,,Mix,,,55,604.8,PARI,Watanabe
+2021/6/10,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-70ｍ,33.79943867,132.2475134,,Mix,,,35,660.6,PARI,Watanabe
+2021/6/10,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-80ｍ,33.79943867,132.2475134,,Mix,,,63,559.8,PARI,Watanabe
+2021/7/14,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-50ｍ,33.79943867,132.2475134,,Mix,,,3,70.8,PARI,Watanabe
+2021/7/14,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-60ｍ,33.79943867,132.2475134,,Mix,,,45,309,PARI,Watanabe
+2021/7/14,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-70ｍ,33.79943867,132.2475134,,Mix,,,28,383.4,PARI,Watanabe
+2021/7/14,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-80ｍ,33.79943867,132.2475134,,Mix,,,80,909,PARI,Watanabe
+2021/7/14,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-90ｍ,33.79943867,132.2475134,,Mix,,,60,296.4,PARI,Watanabe
+2022/2/12,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-50ｍ,33.79943867,132.2475134,,Mix,,,66,774.6,PARI,Watanabe
+2022/2/12,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-60ｍ,33.79943867,132.2475134,,Mix,,,63,2592,PARI,Watanabe
+2022/2/12,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-80ｍ,33.79943867,132.2475134,,Mix,,,90,2520,PARI,Watanabe
+2022/2/12,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-90ｍ,33.79943867,132.2475134,,Mix,,,90,1411.2,PARI,Watanabe
+2022/2/12,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L2-40ｍ,33.79943867,132.2475134,,Mix,,,83,1524,PARI,Watanabe
+2022/2/12,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L2-50ｍ,33.79943867,132.2475134,,Mix,,,60,975,PARI,Watanabe
+2022/2/12,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L2-60ｍ,33.79943867,132.2475134,,Mix,,,65,1290,PARI,Watanabe
+2022/2/12,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L2-70ｍ,33.79943867,132.2475134,,Mix,,,73,2175,PARI,Watanabe
+2022/2/12,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-80ｍ,33.79943867,132.2475134,,Mix,,,60,480,PARI,Watanabe
+2022/3/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-50ｍ,33.79943867,132.2475134,,Mix,,,55,2426.4,PARI,Watanabe
+2022/3/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-60ｍ,33.79943867,132.2475134,,Mix,,,80,577.2,PARI,Watanabe
+2022/3/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-70ｍ,33.79943867,132.2475134,,Mix,,,50,1704,PARI,Watanabe
+2022/3/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-80ｍ,33.79943867,132.2475134,,Mix,,,80,1359.6,PARI,Watanabe
+2022/3/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-90ｍ,33.79943867,132.2475134,,Mix,,,80,1915.2,PARI,Watanabe
+2022/3/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L2-40ｍ,33.79943867,132.2475134,,Mix,,,75,2493,PARI,Watanabe
+2022/3/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L2-50ｍ,33.79943867,132.2475134,,Mix,,,70,1468.2,PARI,Watanabe
+2022/3/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L2-60ｍ,33.79943867,132.2475134,,Mix,,,80,900.6,PARI,Watanabe
+2022/3/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L2-70ｍ,33.79943867,132.2475134,,Mix,,,60,1605,PARI,Watanabe
+2022/3/15,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-80ｍ,33.79943867,132.2475134,,Mix,,,40,1058.4,PARI,Watanabe
+2022/4/13,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-50ｍ,33.79943867,132.2475134,,Mix,,,75,2684.4,PARI,Watanabe
+2022/4/13,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-60ｍ,33.79943867,132.2475134,,Mix,,,75,1119.6,PARI,Watanabe
+2022/4/13,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-70ｍ,33.79943867,132.2475134,,Mix,,,60,510,PARI,Watanabe
+2022/4/13,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-80ｍ,33.79943867,132.2475134,,Mix,,,93,1400.4,PARI,Watanabe
+2022/4/13,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-90ｍ,33.79943867,132.2475134,,Mix,,,85,981.6,PARI,Watanabe
+2022/4/13,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L2-40ｍ,33.79943867,132.2475134,,Mix,,,75,907.2,PARI,Watanabe
+2022/4/13,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L2-50ｍ,33.79943867,132.2475134,,Mix,,,35,1032,PARI,Watanabe
+2022/4/13,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L2-60ｍ,33.79943867,132.2475134,,Mix,,,28,804,PARI,Watanabe
+2022/4/13,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L2-70ｍ,33.79943867,132.2475134,,Mix,,,70,840,PARI,Watanabe
+2022/4/13,Flourish,SetoIslandSea,山口県柳井市平郡島,Heigun,L1-80ｍ,33.79943867,132.2475134,,Mix,,,48,587.4,PARI,Watanabe
+2003/5/29,Flourish,EastChinaSea,福岡県宗像市大島加代鼻地先,Munakata,19_16_25_2003_5_1,33.9115,130.4486,0,AKAMOKU,AKAMOKU,Sargassum horneri,37.5,165.6,Akimoto T et al. 2008,Sato
+2003/5/29,Flourish,EastChinaSea,福岡県宗像市大島加代鼻地先,Munakata,19_16_58_2003_5_1,33.9115,130.4486,3.2,ENDOMOKU,ENDOMOKU,Sargassum yendoi,2.5,45,Akimoto T et al. 2008,Sato
+2007/2/27,Flourish,EastChinaSea,福岡県宗像市大島加代鼻地先,Munakata,19_16_37_2003_5_1,33.9115,130.4486,7,NOKOGIRIMOKU,NOKOGIRIMOKU,"	Sargassum macrocarpum",37.5,158.4,Akimoto T et al. 2008,Sato
+2007/2/27,Flourish,EastChinaSea,福岡県宗像市大島加代鼻地先,Munakata,19_17_86_2007_2_1,33.9117,130.4489,9.7,NOKOGIRIMOKU,NOKOGIRIMOKU,"	Sargassum macrocarpum",37.5,154.2,Akimoto T et al. 2008,Sato
+2007/2/27,Flourish,EastChinaSea,福岡県宗像市大島加代鼻地先,Munakata,19_18_67_2007_2_1,33.9117,130.4489,4.1,NOKOGIRIMOKU,NOKOGIRIMOKU,"	Sargassum macrocarpum",37.5,210,Akimoto T et al. 2008,Sato
+2007/2/27,Flourish,EastChinaSea,福岡県宗像市大島加代鼻地先,Munakata,19_18_72_2007_2_1,33.9117,130.4489,4.6,NOKOGIRIMOKU,NOKOGIRIMOKU,"	Sargassum macrocarpum",37.5,103.2,Akimoto T et al. 2008,Sato
+2003/5/29,Flourish,EastChinaSea,福岡県宗像市大島加代鼻地先,Munakata,19_16_45_2003_5_1,33.9115,130.4486,0,YANAGIMOKU,YANAGIMOKU,Sargassum coreanu,0,19.8,Akimoto T et al. 2008,Sato
+2003/10/27,Flourish,EastChinaSea,鹿児島県薩摩川内市上甑町瀬上海鼠池,Satsumasendai,Line1,31.8634,129.8753,4.25,MAMETAWARA,MAMETAWARA,Sargassum piluliferum,100,253.24,JuuyoushicchiDB,Sato
+2003/10/27,Flourish,EastChinaSea,鹿児島県薩摩川内市上甑町瀬上海鼠池,Satsumasendai,Line2,31.8634,129.8753,4.25,MAMETAWARA,MAMETAWARA,Sargassum piluliferum,100,255.8,JuuyoushicchiDB,Sato
+2020/5/14,Flourish,EastChinaSea,北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,,Mix,Hondawara_ka,Sargassum spp.,52,66.567,PARI,Watanabe
+2020/5/14,Flourish,EastChinaSea,北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,,Mix,Hondawara_ka,Sargassum spp.,0,0.0225,PARI,Watanabe
+2020/5/14,Flourish,EastChinaSea,北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,,Mix,Hondawara_ka,Sargassum spp.,42,48.3465,PARI,Watanabe
+2020/5/14,Flourish,EastChinaSea,北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,,Mix,Hondawara_ka,Sargassum spp.,1,7.8675,PARI,Watanabe
+2020/5/14,Flourish,EastChinaSea,北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,,Mix,Hondawara_ka,Sargassum spp.,31,36.7245,PARI,Watanabe
+2020/5/14,Flourish,EastChinaSea,北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,,Mix,Hondawara_ka,Sargassum spp.,0,0.597,PARI,Watanabe
+2021/5/1,Flourish,EastChinaSea,北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,,Mix,Hondawara_ka,Sargassum spp.,52,253.578,PARI,Watanabe
+2021/5/1,Flourish,EastChinaSea,北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,,Mix,Hondawara_ka,Sargassum spp.,1,5.016,PARI,Watanabe
+2021/5/1,Flourish,EastChinaSea,北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,,Mix,Hondawara_ka,Sargassum spp.,1,2.712,PARI,Watanabe
+2021/5/1,Flourish,EastChinaSea,北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,,Mix,Hondawara_ka,Sargassum spp.,1,2.988,PARI,Watanabe
+2021/5/1,Flourish,EastChinaSea,北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,,Mix,Hondawara_ka,Sargassum spp.,41,108.576,PARI,Watanabe
+2021/5/1,Flourish,EastChinaSea,北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,,Mix,Hondawara_ka,Sargassum spp.,1,1.758,PARI,Watanabe

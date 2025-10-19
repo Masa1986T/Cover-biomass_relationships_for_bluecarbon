@@ -1,0 +1,322 @@
+﻿Class,Species,Jap_name,Date,Season,Region,Site,Point,Lat,Long,Depth,Cover,DW_g_m2,Source,Person
+Chlorophyta,Ulva pertusa,Anaaosa,2021/6/17,Flourish,Hokkaido,Akkeshiko,16号島5,43.03705738,144.8692782,,90,137.5,BC_project,Hasegawa
+Chlorophyta,Ulva pertusa,Anaaosa,2021/6/17,Flourish,Hokkaido,Akkeshiko,16号島6,43.03705738,144.8692782,,60,47.5,BC_project,Hasegawa
+Chlorophyta,Ulva pertusa,Anaaosa,2021/6/17,Flourish,Hokkaido,Akkeshiko,16号島7,43.03705738,144.8692782,,50,35,BC_project,Hasegawa
+Chlorophyta,Ulva pertusa,Anaaosa,2021/6/17,Flourish,Hokkaido,Akkeshiko,16号島8,43.03705738,144.8692782,,70,60,BC_project,Hasegawa
+Chlorophyta,Ulva pertusa,Anaaosa,2021/6/17,Flourish,Hokkaido,Akkeshiko,16号島9,43.03705738,144.8692782,,100,597.5,BC_project,Hasegawa
+Chlorophyta,Ulva pertusa,Anaaosa,2021/6/17,Flourish,Hokkaido,Akkeshiko,11号島3,43.03705738,144.8692782,,5,2.5,BC_project,Hasegawa
+Chlorophyta,Ulva pertusa,Anaaosa,2021/6/17,Flourish,Hokkaido,Akkeshiko,11号島4,43.03705738,144.8692782,,40,30,BC_project,Hasegawa
+Chlorophyta,Ulva pertusa,Anaaosa,2021/6/17,Flourish,Hokkaido,Akkeshiko,11号島5,43.03705738,144.8692782,,10,7.5,BC_project,Hasegawa
+Chlorophyta,Ulva pertusa,Anaaosa,2021/6/17,Flourish,Hokkaido,Akkeshiko,11号島6,43.03705738,144.8692782,,10,5,BC_project,Hasegawa
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.33215278,138.5138389,1,0,1.635,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.33215278,138.5138389,3,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.33215278,138.5138389,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.34008056,138.5151611,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.34008056,138.5151611,12,3,35.439,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.34008056,138.5151611,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33652222,138.4832889,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33652222,138.4832889,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33652222,138.4832889,5,10,53.652,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33793333,138.4826694,7,20,85.29,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33793333,138.4826694,12,50,89.586,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33793333,138.4826694,20,3,3.627,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.3152,138.4638083,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.3152,138.4638083,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.3152,138.4638083,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.31825556,138.4590611,7,0,0.042,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.31825556,138.4590611,12,0,0.018,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.31825556,138.4590611,20,3,2.112,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29206944,138.4428056,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29206944,138.4428056,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29206944,138.4428056,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29629444,138.4336889,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29629444,138.4336889,12,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29629444,138.4336889,20,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.25659722,138.430575,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.25659722,138.430575,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.25659722,138.430575,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.26551667,138.422675,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.26551667,138.422675,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.26551667,138.422675,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/22,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,1,0,0.06,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/22,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,3,40,178.866,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/22,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,5,60,141.768,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/22,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,7,60,42.099,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/23,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,12,10,26.988,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/23,Flourish,NorthJapanSea,Sado,L-06,38.25251389,138.3965,20,3,1.362,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.22785556,138.3783972,1,0,0.033,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.22785556,138.3783972,3,5,30.303,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.22785556,138.3783972,5,3,1.638,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.23261944,138.3708444,7,3,4.548,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.23261944,138.3708444,12,10,1.941,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.23261944,138.3708444,20,20,0.831,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/21,Flourish,NorthJapanSea,Sado,L-08,38.20982778,138.356575,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/21,Flourish,NorthJapanSea,Sado,L-08,38.20982778,138.356575,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/21,Flourish,NorthJapanSea,Sado,L-08,38.20982778,138.356575,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/21,Flourish,NorthJapanSea,Sado,L-08,38.21321111,138.3506444,7,3,21.558,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/28,Flourish,NorthJapanSea,Sado,L-08,38.21321111,138.3506444,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/28,Flourish,NorthJapanSea,Sado,L-08,38.21321111,138.3506444,20,10,3.609,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19295,138.3254028,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19295,138.3254028,3,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19295,138.3254028,5,10,16.584,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19752222,138.3173056,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19752222,138.3173056,12,0,1.596,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19752222,138.3173056,20,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/26,Flourish,NorthJapanSea,Sado,L-10,38.17259167,138.3132111,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/26,Flourish,NorthJapanSea,Sado,L-10,38.17259167,138.3132111,3,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/26,Flourish,NorthJapanSea,Sado,L-10,38.17259167,138.3132111,5,0,0.552,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/26,Flourish,NorthJapanSea,Sado,L-10,38.17536111,138.3080806,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/27,Flourish,NorthJapanSea,Sado,L-10,38.17536111,138.3080806,12,3,0.12,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/27,Flourish,NorthJapanSea,Sado,L-10,38.17536111,138.3080806,20,3,0.222,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15138611,138.3011278,1,0,32.529,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15138611,138.3011278,3,3,0.489,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15138611,138.3011278,5,0,0.315,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15540278,138.2914028,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15540278,138.2914028,12,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15540278,138.2914028,20,3,0.153,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12241389,138.2723556,1,0,0.129,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12241389,138.2723556,3,0,4.359,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12241389,138.2723556,5,0,32.631,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12501111,138.2677028,7,10,89.442,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12501111,138.2677028,12,10,33.096,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12501111,138.2677028,20,10,30.834,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09613889,138.2488194,1,1.5,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09613889,138.2488194,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/20,Flourish,NorthJapanSea,Sado,L-13,38.09613889,138.2488194,5,0,0.201,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/20,Flourish,NorthJapanSea,Sado,L-13,38.09764167,138.2455278,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09764167,138.2455278,12,5,7.299,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09764167,138.2455278,20,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06805278,138.2402806,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06805278,138.2402806,3,3,8.064,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06805278,138.2402806,5,0,6.639,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06920278,138.2357194,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06920278,138.2357194,12,0,2.199,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06920278,138.2357194,20,0,1.239,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/24,Flourish,NorthJapanSea,Sado,L-15,38.03761111,138.2352139,1,0,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/24,Flourish,NorthJapanSea,Sado,L-15,38.03761111,138.2352139,3,0,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/24,Flourish,NorthJapanSea,Sado,L-15,38.03761111,138.2352139,5,0,1.149,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/24,Flourish,NorthJapanSea,Sado,L-15,38.03732222,138.2158889,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/6/3,Flourish,NorthJapanSea,Sado,L-15,38.03732222,138.2158889,12,0,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/6/3,Flourish,NorthJapanSea,Sado,L-15,38.03732222,138.2158889,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01936389,138.2234639,1,0,0.027,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01936389,138.2234639,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01936389,138.2234639,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01893056,138.2179694,7,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01893056,138.2179694,12,0,2.61,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01893056,138.2179694,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.33215278,138.5138389,1,0,0.552,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.33215278,138.5138389,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.33215278,138.5138389,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.34008056,138.5151611,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.34008056,138.5151611,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.34008056,138.5151611,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33652222,138.4832889,1,0,0.066,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33652222,138.4832889,3,0,0.024,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33652222,138.4832889,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33793333,138.4826694,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33793333,138.4826694,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33793333,138.4826694,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.3152,138.4638083,1,0,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.3152,138.4638083,3,0,0.117,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.3152,138.4638083,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.31825556,138.4590611,7,0,0.465,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.31825556,138.4590611,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.31825556,138.4590611,20,50,29.223,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29206944,138.4428056,1,60,330.75,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29206944,138.4428056,3,50,182.382,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29206944,138.4428056,5,0,0.117,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29629444,138.4336889,7,0,0.681,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29629444,138.4336889,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29629444,138.4336889,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.25659722,138.430575,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.25659722,138.430575,3,0,1.887,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.25659722,138.430575,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.26551667,138.422675,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.26551667,138.422675,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.26551667,138.422675,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,5,20,21.153,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,7,0,0.045,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/23,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/23,Flourish,NorthJapanSea,Sado,L-06,38.25251389,138.3965,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.22785556,138.3783972,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.22785556,138.3783972,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.22785556,138.3783972,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.23261944,138.3708444,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.23261944,138.3708444,12,0,0.162,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.23261944,138.3708444,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-08,38.20982778,138.356575,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-08,38.20982778,138.356575,3,0,69.132,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-08,38.20982778,138.356575,5,50,204.246,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-08,38.21321111,138.3506444,7,0,0.684,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/28,Flourish,NorthJapanSea,Sado,L-08,38.21321111,138.3506444,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/28,Flourish,NorthJapanSea,Sado,L-08,38.21321111,138.3506444,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19295,138.3254028,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19295,138.3254028,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19295,138.3254028,5,3,1.956,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19752222,138.3173056,7,50,92.43,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19752222,138.3173056,12,3,3.468,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19752222,138.3173056,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-10,38.17259167,138.3132111,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-10,38.17259167,138.3132111,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-10,38.17259167,138.3132111,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-10,38.17536111,138.3080806,7,50,10.77,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-10,38.17536111,138.3080806,12,0,0.156,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-10,38.17536111,138.3080806,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15138611,138.3011278,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15138611,138.3011278,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15138611,138.3011278,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15540278,138.2914028,7,50,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15540278,138.2914028,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15540278,138.2914028,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12241389,138.2723556,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12241389,138.2723556,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12241389,138.2723556,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12501111,138.2677028,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12501111,138.2677028,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12501111,138.2677028,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09613889,138.2488194,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09613889,138.2488194,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/20,Flourish,NorthJapanSea,Sado,L-13,38.09613889,138.2488194,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/20,Flourish,NorthJapanSea,Sado,L-13,38.09764167,138.2455278,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09764167,138.2455278,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09764167,138.2455278,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06805278,138.2402806,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06805278,138.2402806,3,3,3.81,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06805278,138.2402806,5,50,71.634,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06920278,138.2357194,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06920278,138.2357194,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06920278,138.2357194,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-15,38.03761111,138.2352139,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-15,38.03761111,138.2352139,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-15,38.03761111,138.2352139,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-15,38.03732222,138.2158889,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/6/3,Flourish,NorthJapanSea,Sado,L-15,38.03732222,138.2158889,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/6/3,Flourish,NorthJapanSea,Sado,L-15,38.03732222,138.2158889,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01936389,138.2234639,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01936389,138.2234639,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01936389,138.2234639,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01893056,138.2179694,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01893056,138.2179694,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Punctaria spp.,Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01893056,138.2179694,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis; Punctaria spp.,Keurujigusa; Habamodoki,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.33215278,138.5138389,1,0,2.187,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.33215278,138.5138389,3,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.33215278,138.5138389,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.34008056,138.5151611,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.34008056,138.5151611,12,3,35.439,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/14,Flourish,NorthJapanSea,Sado,L-01,38.34008056,138.5151611,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33652222,138.4832889,1,0,0.066,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33652222,138.4832889,3,0,0.024,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33652222,138.4832889,5,10,53.652,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33793333,138.4826694,7,20,85.29,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33793333,138.4826694,12,50,89.586,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/30,Flourish,NorthJapanSea,Sado,L-02,38.33793333,138.4826694,20,3,3.627,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.3152,138.4638083,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.3152,138.4638083,3,0,0.117,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.3152,138.4638083,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.31825556,138.4590611,7,0,0.507,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.31825556,138.4590611,12,0,0.018,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-03,38.31825556,138.4590611,20,53,31.335,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29206944,138.4428056,1,60,330.75,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29206944,138.4428056,3,50,182.382,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29206944,138.4428056,5,0,0.117,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29629444,138.4336889,7,0,0.681,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29629444,138.4336889,12,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/15,Flourish,NorthJapanSea,Sado,L-04,38.29629444,138.4336889,20,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.25659722,138.430575,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.25659722,138.430575,3,0,1.887,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.25659722,138.430575,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.26551667,138.422675,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.26551667,138.422675,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-05,38.26551667,138.422675,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,1,0,0.06,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,3,40,178.866,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,5,80,162.921,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/22,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,7,60,42.144,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/23,Flourish,NorthJapanSea,Sado,L-06,38.25124444,138.3976333,12,10,26.988,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/23,Flourish,NorthJapanSea,Sado,L-06,38.25251389,138.3965,20,3,1.362,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.22785556,138.3783972,1,0,0.033,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.22785556,138.3783972,3,5,30.303,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.22785556,138.3783972,5,3,1.638,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.23261944,138.3708444,7,3,4.548,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.23261944,138.3708444,12,10,2.103,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-07,38.23261944,138.3708444,20,20,0.831,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-08,38.20982778,138.356575,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-08,38.20982778,138.356575,3,0,69.132,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-08,38.20982778,138.356575,5,50,204.246,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/21,Flourish,NorthJapanSea,Sado,L-08,38.21321111,138.3506444,7,3,22.242,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/28,Flourish,NorthJapanSea,Sado,L-08,38.21321111,138.3506444,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/28,Flourish,NorthJapanSea,Sado,L-08,38.21321111,138.3506444,20,10,3.609,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19295,138.3254028,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19295,138.3254028,3,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19295,138.3254028,5,13,18.54,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19752222,138.3173056,7,50,92.43,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19752222,138.3173056,12,3,5.064,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-09,38.19752222,138.3173056,20,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-10,38.17259167,138.3132111,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-10,38.17259167,138.3132111,3,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-10,38.17259167,138.3132111,5,0,0.552,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-10,38.17536111,138.3080806,7,50,10.77,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-10,38.17536111,138.3080806,12,3,0.276,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/27,Flourish,NorthJapanSea,Sado,L-10,38.17536111,138.3080806,20,3,0.222,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15138611,138.3011278,1,0,32.529,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15138611,138.3011278,3,3,0.489,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15138611,138.3011278,5,0,0.315,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15540278,138.2914028,7,50,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15540278,138.2914028,12,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/26,Flourish,NorthJapanSea,Sado,L-11,38.15540278,138.2914028,20,3,0.153,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12241389,138.2723556,1,0,0.129,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12241389,138.2723556,3,0,4.359,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12241389,138.2723556,5,0,32.631,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12501111,138.2677028,7,10,89.442,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12501111,138.2677028,12,10,33.096,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-12,38.12501111,138.2677028,20,10,30.834,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09613889,138.2488194,1,1.5,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09613889,138.2488194,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/20,Flourish,NorthJapanSea,Sado,L-13,38.09613889,138.2488194,5,0,0.201,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/20,Flourish,NorthJapanSea,Sado,L-13,38.09764167,138.2455278,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09764167,138.2455278,12,5,7.299,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/29,Flourish,NorthJapanSea,Sado,L-13,38.09764167,138.2455278,20,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06805278,138.2402806,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06805278,138.2402806,3,6,11.874,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06805278,138.2402806,5,50,78.273,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06920278,138.2357194,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06920278,138.2357194,12,0,2.199,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/25,Flourish,NorthJapanSea,Sado,L-14,38.06920278,138.2357194,20,0,1.239,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-15,38.03761111,138.2352139,1,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-15,38.03761111,138.2352139,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-15,38.03761111,138.2352139,5,0,1.149,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-15,38.03732222,138.2158889,7,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/6/3,Flourish,NorthJapanSea,Sado,L-15,38.03732222,138.2158889,12,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/6/3,Flourish,NorthJapanSea,Sado,L-15,38.03732222,138.2158889,20,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01936389,138.2234639,1,0,0.027,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01936389,138.2234639,3,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01936389,138.2234639,5,,,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01893056,138.2179694,7,3,0,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01893056,138.2179694,12,0,2.61,Sadochiku_mobachosa,Hamaoka
+Chlorophyta,Desmarestia viridis,Keurujigusa; Habamodoki,2018/5/24,Flourish,NorthJapanSea,Sado,L-16,38.01893056,138.2179694,20,,,Sadochiku_mobachosa,Hamaoka
+Phaeophyceae,Padina spp.,Umiuchiwa,2023/6/27,Flourish,CentralPacific,Kamogawa,Kominato,35.120536,140.184586,1.5,90,448,BC_project,Sato
+Phaeophyceae,Padina spp.,Umiuchiwa,2023/6/27,Flourish,CentralPacific,Kamogawa,Kominato,35.120536,140.184586,1.5,80,336,BC_project,Sato
+Phaeophyceae,Padina spp.,Umiuchiwa,2023/6/27,Flourish,CentralPacific,Kamogawa,Kominato,35.120536,140.184586,1.5,60,96,BC_project,Sato
+Phaeophyceae,Padina spp.,Umiuchiwa,2023/6/27,Flourish,CentralPacific,Kamogawa,Kominato,35.120536,140.184586,1.5,20,32,BC_project,Sato
+Phaeophyceae,Padina spp.,Umiuchiwa,2023/6/27,Flourish,CentralPacific,Kamogawa,Kominato,35.120536,140.184586,1.5,40,112,BC_project,Sato
+Phaeophyceae,Padina spp.,Umiuchiwa,2023/6/27,Flourish,CentralPacific,Kamogawa,Kominato,35.120536,140.184586,1.5,90,400,BC_project,Sato
+Phaeophyceae,Padina spp.,Umiuchiwa,2023/6/27,Flourish,CentralPacific,Kamogawa,Kominato,35.120536,140.184586,1.5,60,240,BC_project,Sato
+Phaeophyceae,Dictyota dichotoma,Amizigusa,2024/4/11,Flourish,CentralPacific,Shimoda,ShimodaMarineStation,34.665839,138.943473,4,90,274.016,BC_project,Sato
+Phaeophyceae,Dictyota dichotoma,Amizigusa,2024/4/11,Flourish,CentralPacific,Shimoda,ShimodaMarineStation,34.665839,138.943473,4,60,170.032,BC_project,Sato
+Phaeophyceae,Dictyota dichotoma,Amizigusa,2024/4/11,Flourish,CentralPacific,Shimoda,ShimodaMarineStation,34.665839,138.943473,4,40,144.176,BC_project,Sato
+Phaeophyceae,Dictyota dichotoma,Amizigusa,2024/4/11,Flourish,CentralPacific,Shimoda,ShimodaMarineStation,34.665839,138.943473,4,20,56.4,BC_project,Sato
+Phaeophyceae,Dictyota dichotoma,Amizigusa,2024/4/11,Flourish,CentralPacific,Shimoda,ShimodaMarineStation,34.665839,138.943473,4,100,479.12,BC_project,Sato
+Phaeophyceae,Dictyota dichotoma,Amizigusa,2024/4/11,Flourish,CentralPacific,Shimoda,ShimodaMarineStation,34.665839,138.943473,4,5,14.32,BC_project,Sato
+Rhodophyta,Pterocladiella tenuis,Tengusa,2024/4/11,Flourish,CentralPacific,Shimoda,ShimodaMarineStation,34.665839,138.943473,4,0,14.144,BC_project,Sato
+Rhodophyta,Gelidium elegans; Pterocladiella tenuis; Gelidium japonicum; Rhodymenia intricata,Tengusa,2024/4/11,Flourish,CentralPacific,Shimoda,ShimodaMarineStation,34.665839,138.943473,4,0,0.112,BC_project,Sato
+Rhodophyta,Gelidium elegans; Pterocladiella tenuis; Gelidium japonicum; Rhodymenia intricata,Tengusa,2024/4/11,Flourish,CentralPacific,Shimoda,ShimodaMarineStation,34.665839,138.943473,4,40,146.656,BC_project,Sato
+Rhodophyta,Pterocladiella tenuis,Tengusa,2024/4/11,Flourish,CentralPacific,Shimoda,ShimodaMarineStation,34.665839,138.943473,4,20,79.424,BC_project,Sato
+Rhodophyta,Pterocladiella tenuis,Tengusa,2024/4/11,Flourish,CentralPacific,Shimoda,ShimodaMarineStation,34.665839,138.943473,4,1,24.528,BC_project,Sato
+Rhodophyta,Gelidium elegans,Tengusa,2024/4/11,Flourish,CentralPacific,Shimoda,ShimodaMarineStation,34.665839,138.943473,4,95,749.584,BC_project,Sato
+Rhodophyta,Kallymenia perforata,Tsukasaami,2023/6/6,Flourish,SuthernPacific,TokushimaKaiyocho,Shishikui,33.559791,134.313346,2,70,127.9325158,BC_project,Sato
+Rhodophyta,Kallymenia perforata,Tsukasaami,2023/6/6,Flourish,SuthernPacific,TokushimaKaiyocho,Shishikui,33.559791,134.313346,2,90,170.5766877,BC_project,Sato
+Rhodophyta,Kallymenia perforata,Tsukasaami,2023/6/6,Flourish,SuthernPacific,TokushimaKaiyocho,Shishikui,33.559791,134.313346,2,50,97.47239296,BC_project,Sato
+Rhodophyta,Kallymenia perforata,Tsukasaami,2023/6/6,Flourish,SuthernPacific,TokushimaKaiyocho,Shishikui,33.559791,134.313346,2,10,18.27607368,BC_project,Sato
+Rhodophyta,Kallymenia perforata,Tsukasaami,2023/6/6,Flourish,SuthernPacific,TokushimaKaiyocho,Shishikui,33.559791,134.313346,2,100,402.073621,BC_project,Sato

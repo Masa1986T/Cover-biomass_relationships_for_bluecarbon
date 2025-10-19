@@ -1,0 +1,27 @@
+﻿Date,Season,Region,Site,Point,Lat,Long,Depth,Jap_name,Species,Cover,DW_g_m2,Source,Person_in_charge
+2023/6/6,Flourish,SouthPacific,Tokushima,Shishikui,33.559791,134.313346,2.5,Hiiragimoku; Kirebamoku,Sargassum ilicifolium; Sargassum alternato-pinnatum,100,1041.401307,BC_project,Sato
+2023/6/6,Flourish,SouthPacific,Tokushima,Shishikui,33.559791,134.313346,1.5,Hiiragimoku; Kirebamoku,Sargassum ilicifolium; Sargassum alternato-pinnatum,50,346.8454895,BC_project,Sato
+2023/6/6,Flourish,SouthPacific,Tokushima,Shishikui,33.559791,134.313346,1.5,Hiiragimoku; Kirebamoku,Sargassum ilicifolium; Sargassum alternato-pinnatum,8,75.06771228,BC_project,Sato
+2023/6/6,Flourish,SouthPacific,Tokushima,Shishikui,33.559791,134.313346,2,Hiiragimoku; Kirebamoku,Sargassum ilicifolium; Sargassum alternato-pinnatum,40,309.8719603,BC_project,Sato
+2023/6/6,Flourish,SouthPacific,Tokushima,Shishikui,33.559791,134.313346,2,Hiiragimoku; Kirebamoku,Sargassum ilicifolium; Sargassum alternato-pinnatum,100,1252.455684,BC_project,Sato
+2023/6/6,Flourish,SouthPacific,Tokushima,Shishikui,33.559791,134.313346,2,Hiiragimoku; Kirebamoku,Sargassum ilicifolium; Sargassum alternato-pinnatum,40,281.0794112,BC_project,Sato
+2022/4/1,Flourish,EastChinaSea,Nagasaki,Ojikajima,33.18641658,129.070619,7,Usubamouk; Kirebamoku; Tsukushimoku,Sargasso tenuiolium; Sargassum alternato-pinnatum; Sargassum assimile,15,24,BC_project,Kiyomoto
+2022/4/1,Flourish,EastChinaSea,Nagasaki,Ojikajima,33.18641658,129.070619,7,Usubamouk; Kirebamoku; Tsukushimoku,Sargasso tenuiolium; Sargassum alternato-pinnatum; Sargassum assimile,35,72,BC_project,Kiyomoto
+2022/4/1,Flourish,EastChinaSea,Nagasaki,Ojikajima,33.18641658,129.070619,7,Usubamouk; Kirebamoku; Tsukushimoku,Sargasso tenuiolium; Sargassum alternato-pinnatum; Sargassum assimile,40,76,BC_project,Kiyomoto
+2022/4/1,Flourish,EastChinaSea,Nagasaki,Ojikajima,33.18641658,129.070619,7,Usubamouk; Kirebamoku; Tsukushimoku,Sargasso tenuiolium; Sargassum alternato-pinnatum; Sargassum assimile,100,372,BC_project,Kiyomoto
+2022/4/1,Flourish,EastChinaSea,Nagasaki,Ojikajima,33.18641658,129.070619,7,Usubamouk; Kirebamoku; Tsukushimoku,Sargasso tenuiolium; Sargassum alternato-pinnatum; Sargassum assimile,100,416,BC_project,Kiyomoto
+2022/5/1,Flourish,EastChinaSea,Nagasaki,Ojikajima,33.18641658,129.070619,7,Usubamouk; Kirebamoku,Sargasso tenuiolium; Sargassum alternato-pinnatum,25,32,BC_project,Kiyomoto
+2022/5/1,Flourish,EastChinaSea,Nagasaki,Ojikajima,33.18641658,129.070619,7,Usubamouk; Kirebamoku,Sargasso tenuiolium; Sargassum alternato-pinnatum,25,40,BC_project,Kiyomoto
+2022/5/1,Flourish,EastChinaSea,Nagasaki,Ojikajima,33.18641658,129.070619,7,Usubamouk; Kirebamoku,Sargasso tenuiolium; Sargassum alternato-pinnatum,25,100,BC_project,Kiyomoto
+2022/5/1,Flourish,EastChinaSea,Nagasaki,Ojikajima,33.18641658,129.070619,7,Usubamouk; Kirebamoku,Sargasso tenuiolium; Sargassum alternato-pinnatum,100,480,BC_project,Kiyomoto
+2022/5/1,Flourish,EastChinaSea,Nagasaki,Ojikajima,33.18641658,129.070619,7,Usubamouk; Kirebamoku,Sargasso tenuiolium; Sargassum alternato-pinnatum,100,516,BC_project,Kiyomoto
+2023/10/25,Flourish,Ryukyu,Ishigaki,Maeri,24.32847,124.18581,0.5,Hiragimoku; Tamakirebamoku,Sargassum ilicifolium; Sargassum polyporum,30,104.312,BC_project,Sudo
+2023/10/25,Flourish,Ryukyu,Ishigaki,Maeri,24.32847,124.18581,0.5,Ryukyumoku; Tamakirebamoku,Sargassum sp.; Sargassum polyporum,40,253.436,BC_project,Sudo
+2023/10/25,Flourish,Ryukyu,Ishigaki,Maeri,24.32847,124.18581,0.5,Hiragimoku; Ryukyumoku;Tamakirebamoku,Sargassum ilicifolium;Sargassum sp.;  Sargassum polyporum,80,723.044,BC_project,Sudo
+2023/10/25,Flourish,Ryukyu,Ishigaki,Maeri,24.32847,124.18581,0.5,Hiragimoku; Ryukyumoku;Yamabanemoku,Sargassum ilicifolium;Sargassum sp.; Hormophysa cuneiformis,100,455.972,BC_project,Sudo
+2023/10/25,Flourish,Ryukyu,Ishigaki,Maeri,24.32847,124.18581,0.5,Hiragimoku; Tamakirebamoku,Sargassum ilicifolium; Sargassum polyporum,30,222.992,BC_project,Sudo
+2023/10/25,Flourish,Ryukyu,Ishigaki,Maeri,24.32847,124.18581,0.5,Hiragimoku; Ryukyumoku;Tamakirebamoku; Himehamoku,Sargassum ilicifolium;Sargassum sp.;  Sargassum polyporum;Sargassum myriocystum,100,796.668,BC_project,Sudo
+2023/10/25,Flourish,Ryukyu,Ishigaki,Maeri,24.32847,124.18581,0.5,Ryukyumoku,Sargassum sp.,10,19.428,BC_project,Sudo
+2023/10/25,Flourish,Ryukyu,Ishigaki,Maeri,24.32847,124.18581,0.5,Hiragimoku; Tamakirebamoku,Sargassum ilicifolium; Sargassum polyporum,15,42.156,BC_project,Sudo
+2023/10/25,Flourish,Ryukyu,Ishigaki,Maeri,24.32847,124.18581,0.5,Hiragimoku; Ryukyumoku;Tamakirebamoku,Sargassum ilicifolium;Sargassum sp.;  Sargassum polyporum,50,232.824,BC_project,Sudo
+2023/10/25,Flourish,Ryukyu,Ishigaki,Maeri,24.32847,124.18581,0.5,Hiragimoku; Ryukyumoku;Tamakirebamoku,Sargassum ilicifolium;Sargassum sp.;  Sargassum polyporum,80,297.436,BC_project,Sudo

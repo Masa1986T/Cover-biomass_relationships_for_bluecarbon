@@ -1,0 +1,48 @@
+﻿Date,Season,Region,Site,Site,Point,Lat,Long,Mean_temp,Max_temp,Min_temp,Depth,Jap_name,Species,Cover,DW_g_m2,Source,Person_in_charge
+2021/8/20,Flourish,TohokuPacific,宮城県石巻市（泊浜）,Ishinomaki,Tomarihama,38.35629,141.54293,17.87,26.83,7.81,4.1,Arame,Eisenia bicyclis,80,2813.3,BC_project,Yatsuya
+2024/6/21,Flourish,TohokuPacific,茨城県日立市久慈浜,Hitachi,Kujihama,36.50115,140.63224,17.87,26.83,7.81,3.4,Arame,Eisenia bicyclis,80,4116.972,BC_project,Sato
+2024/6/21,Flourish,TohokuPacific,茨城県日立市久慈浜,Hitachi,Kujihama,36.50115,140.63224,17.87,26.83,7.81,3.4,Arame,Eisenia bicyclis,20,143.184,BC_project,Sato
+2024/6/21,Flourish,TohokuPacific,茨城県日立市久慈浜,Hitachi,Kujihama,36.50115,140.63224,17.87,26.83,7.81,4.1,Arame,Eisenia bicyclis,60,1346.096,BC_project,Sato
+2024/6/21,Flourish,TohokuPacific,茨城県日立市久慈浜,Hitachi,Kujihama,36.50115,140.63224,17.87,26.83,7.81,4,Arame,Eisenia bicyclis,50,1103.3,BC_project,Sato
+2024/6/21,Flourish,TohokuPacific,茨城県日立市久慈浜,Hitachi,Kujihama,36.50115,140.63224,17.87,26.83,7.81,2.7,Arame,Eisenia bicyclis,15,63.54,BC_project,Sato
+2005/5/8,Flourish,TohokuPacific,茨城県東茨城郡大洗町,Oharai,OharaiMisaki,36.30309,140.58907,,,,2.6,Arame,Eisenia bicyclis,100,10080,JuuyoushicchiDB,Sato
+2022/6/28,Flourish,CentralPacific,千葉県銚子市犬吠埼,Choshi,Inubosaki,35.709363,140.867415,19.79,27.57,12.43,1,Arame,Eisenia bicyclis,100,5306.343375,BC_project,Sato
+2022/6/28,Flourish,CentralPacific,千葉県銚子市犬吠埼,Choshi,Inubosaki,35.709363,140.867415,19.79,27.57,12.43,1,Arame,Eisenia bicyclis,50,1584,BC_project,Sato
+2022/6/28,Flourish,CentralPacific,千葉県銚子市犬吠埼,Choshi,Inubosaki,35.709363,140.867415,19.79,27.57,12.43,1,Arame,Eisenia bicyclis,20,340,BC_project,Sato
+2022/6/28,Flourish,CentralPacific,千葉県銚子市犬吠埼,Choshi,Inubosaki,35.709363,140.867415,19.79,27.57,12.43,1,Arame,Eisenia bicyclis,90,4299.255867,BC_project,Sato
+2022/6/28,Flourish,CentralPacific,千葉県銚子市犬吠埼,Choshi,Inubosaki,35.709363,140.867415,19.79,27.57,12.43,1,Arame,Eisenia bicyclis,40,1296,BC_project,Sato
+1993/xx/xx,,CentralPacific,神奈川県,Yokosuka,Chojagasaki,35.2527,139.5771,20.22,28.18,13.11,3,Arame,Eisenia bicyclis,37.5,258.2879137,Akimoto et al. (2012),Sato
+2009/xx/xx,,CentralPacific,神奈川県,Yokosuka,KuruwaPort,35.2448,139.5921,20.22,28.18,13.11,5,Arame,Eisenia bicyclis,37.5,103.3151655,Akimoto et al. (2012),Sato
+2009/xx/xx,,CentralPacific,神奈川県,Yokosuka,Chojagasaki,35.2527,139.5771,20.22,28.18,13.11,1,Arame,Eisenia bicyclis,37.5,258.2879137,Akimoto et al. (2012),Sato
+1993/xx/xx,,CentralPacific,神奈川県,Yokosuka,Chojagasaki,35.2527,139.5771,20.22,28.18,13.11,1,Arame,Eisenia bicyclis,2.5,77.48637412,Akimoto et al. (2012),Sato
+2009/xx/xx,,CentralPacific,神奈川県,Yokosuka,Chojagasaki,35.2527,139.5771,20.22,28.18,13.11,5,Arame,Eisenia bicyclis,2.5,77.48637412,Akimoto et al. (2012),Sato
+1993/xx/xx,,CentralPacific,神奈川県,Yokosuka,Chojagasaki,35.2527,139.5771,20.22,28.18,13.11,3,Arame,Eisenia bicyclis,87.5,774.8637412,Akimoto et al. (2012),Sato
+2009/xx/xx,,CentralPacific,神奈川県,Zushi,Ohsaki,35.2917,139.558,20.22,28.18,13.11,1,Arame,Eisenia bicyclis,2.5,77.48637412,Akimoto et al. (2012),Sato
+1993/xx/xx,,CentralPacific,神奈川県,Yokosuka,KuruwaPort,35.2448,139.5921,20.22,28.18,13.11,3,Arame,Eisenia bicyclis,37.5,103.3151655,Akimoto et al. (2012),Sato
+2009/xx/xx,,CentralPacific,神奈川県,Yokosuka,SajimaPort,35.2211,139.603,20.22,28.18,13.11,1,Arame,Eisenia bicyclis,37.5,103.3151655,Akimoto et al. (2012),Sato
+2009/xx/xx,,CentralPacific,神奈川県,Yokosuka,SajimaPort,35.2211,139.603,20.22,28.18,13.11,3,Arame,Eisenia bicyclis,37.5,103.3151655,Akimoto et al. (2012),Sato
+1993/xx/xx,,CentralPacific,神奈川県,Yokosuka,SajimaPort,35.2211,139.603,20.22,28.18,13.11,1,Arame,Eisenia bicyclis,37.5,258.2879137,Akimoto et al. (2012),Sato
+2009/xx/xx,,CentralPacific,神奈川県,Yokosuka,KuruwaPort,35.2448,139.5921,20.22,28.18,13.11,3,Arame,Eisenia bicyclis,37.5,103.3151655,Akimoto et al. (2012),Sato
+1993/xx/xx,,CentralPacific,神奈川県,Miura,Moroiso,35.1561,139.6036,20.22,28.18,13.11,1,Arame,Eisenia bicyclis,62.5,581.1478059,Akimoto et al. (2012),Sato
+2009/xx/xx,,CentralPacific,神奈川県,Miura,Kurosaki,35.183,139.6139,20.22,28.18,13.11,1,Arame,Eisenia bicyclis,37.5,258.2879137,Akimoto et al. (2012),Sato
+2004/7/14,Flourish,CentralPacific,神奈川県,Miura,Tsurugisaki,35.1397,139.6786,20.22,28.18,13.11,1.8,Arame,Eisenia bicyclis,NA,1248,JuuyoushicchiDB,Sato
+2020/9/11,Flourish,SouthJapanSea,山口県下関市豊浦町室津（長尾）,Shimonoseki,Murotsu,34.14503,130.87739,19.53,29.83,10.69,5.3,Arame,Eisenia bicyclis,100,3163.6,BC_project,Abe
+2021/6/8,Flourish,SouthJapanSea,山口県下関市豊浦町室津（長尾）,Shimonoseki,Murotsu,34.14503,130.87739,19.53,29.83,10.69,5.3,Arame,Eisenia bicyclis,80,2429.64,BC_project,Abe
+2021/11/2,Decline,SouthJapanSea,山口県下関市蓋井島（こうの瀬）,Shimonoseki,Futaoijima,34.11017,130.85962,19.53,29.83,10.69,2,Arame,Eisenia bicyclis,20,1284.52,BC_project,Abe
+2021/12/7,Decline,SouthJapanSea,山口県下関市豊浦町室津（長尾）,Shimonoseki,Murotsu,34.14503,130.87739,19.53,29.83,10.69,5,Arame,Eisenia bicyclis,60,908,BC_project,Abe
+2006/5/22,Flourish,SouthJapanSea,山口県長門市仙崎青海島 ,Nagato,Ohmijima,34.42461405,131.1885268,19.53,29.83,10.69,NA,Arame,Eisenia bicyclis,50,1250.8,JuuyoushicchiDB,Shimabukuro
+1966/4/1,Flourish,CentralPacific,静岡県静岡市駿河区石部,Shizuoka,Ishibe,34.9175,138.3621,,,,NA,Sagarame,Eisenia nipponica,13,132.45,Arita et al. (2020),Sato
+2004/6/10,Flourish,CentralPacific,三重県志摩市志摩町御座地先,Shima,Goza,34.27305,136.75305,,,,3.8,Sagarame,Eisenia nipponica,90,3817.1,JuuyoushicchiDB,Shimabukuro
+2021/10/27,Decline,SuthernPacific,徳島県海部郡美波町（阿部）,TokushimaMinami,Abe,33.7871,134.6501,,,,4.5,Sagarame,Eisenia nipponica,100,1775.29,BC_project,Yoshimi
+2022/5/19,Flourish,SuthernPacific,徳島県海部郡美波町（阿部）,TokushimaMinami,Abe,33.7871,134.6496,,,,4.5,Sagarame,Eisenia nipponica,70,1257.44,BC_project,Yoshimi
+2023/10/24,Decline,SuthernPacific,徳島県美波町伊座利,TokushimaMinami,Izari,33.797054,134.663888,6.5,,,6.5,Sagarame,Eisenia nipponica,30,680.4989515,BC_project,Ogura
+2020/5/14,Flourish,EastChinaSea,福岡県北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,19.72,29.63,11.44,3,Arame,Eisenia bicyclis,30,39.84747008,J-Power_Wakamatsu,Kuwae
+2020/5/14,Flourish,EastChinaSea,福岡県北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,19.72,29.63,11.44,3,Arame,Eisenia bicyclis,20,23.29276702,J-Power_Wakamatsu,Kuwae
+2020/5/14,Flourish,EastChinaSea,福岡県北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,19.72,29.63,11.44,2.9,Arame,Eisenia bicyclis,20,40.05627778,J-Power_Wakamatsu,Kuwae
+2021/5/1,Flourish,EastChinaSea,福岡県北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,19.72,29.63,11.44,3,Arame,Eisenia bicyclis,60,1824.46534,J-Power_Wakamatsu,Kuwae
+2021/5/1,Flourish,EastChinaSea,福岡県北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,19.72,29.63,11.44,3,Arame,Eisenia bicyclis,70,1990.1837,J-Power_Wakamatsu,Kuwae
+2021/5/1,Flourish,EastChinaSea,福岡県北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,19.72,29.63,11.44,6,Arame,Eisenia bicyclis,1,96.01941933,J-Power_Wakamatsu,Kuwae
+2021/5/1,Flourish,EastChinaSea,福岡県北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,19.72,29.63,11.44,3,Arame,Eisenia bicyclis,80,1322.277459,J-Power_Wakamatsu,Kuwae
+2021/5/1,Flourish,EastChinaSea,福岡県北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,19.72,29.63,11.44,7,Arame,Eisenia bicyclis,0,445.1244833,J-Power_Wakamatsu,Kuwae
+2021/5/1,Flourish,EastChinaSea,福岡県北九州市若松,Kitakyushu,Wakamatsu,33.935201,130.772324,19.72,29.63,11.44,10,Arame,Eisenia bicyclis,1,96.01941933,J-Power_Wakamatsu,Kuwae
+2005/5/28,Flourish,EastChinaSea,長崎県平戸市油水,Hirato,Aburamizu,33.39384,129.56015,,,,5,Arame,Eisenia bicyclis,100,1990.8,JuuyoushicchiDB,Sato
