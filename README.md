@@ -18,7 +18,7 @@ The raw data described below are housed in the folder "Data".
 The folder "Plots" includes all results of figures obtained by running "xxx.R" and "xxx_cover100%.R".
 
 * Figures for the relationship between cover and biomass (i.e., model (mod z (z = 1, 2, or 3))) for each seaweeds or surfgrass (xxx) at site y  : xxx_y_mod z.svg
-* Figures for comparing the relationship between cover and biomass (i.e., model (mod z (z = 1, 2, or 3))) for each seaweeds or surfgrass (xxx) among regions  : xxx_comparison_wlegend.svg
+* Figures for comparing the relationships between cover and biomass (i.e., model (mod z (z = 1, 2, or 3))) for each seaweeds or surfgrass (xxx) among regions  : xxx_comparison_wlegend.svg
 * Figures for the estimated biomass of all the models at 100% coverage for each seaweeds or surfgrass (xxx) with width aaaa : xxx100_Regiontype_aaaa.svg
 
 
@@ -34,7 +34,7 @@ The folder "R code" shares the following programming codes to mrun the analyses 
 
 ## Citation
 
-佐藤允昭, 長谷川夏樹，村岡大祐，小林俊将，濱岡秀樹，鈴木健吾，鬼塚年弘，渡辺謙太，桑江朝比呂，須藤健二，島袋寛盛，阿部真比古，村瀬昇，小倉季人，吉見圭一郎，清本節夫，堀正和(2025)岩礁性の海藻・海草の被度と現存量の関係式.
+佐藤允昭, 長谷川夏樹，村岡大祐，小林俊将，濱岡秀樹，鈴木健吾，鬼塚年弘，渡辺謙太，桑江朝比呂，須藤健二，島袋寛盛，阿部真比古，村瀬昇，小倉季人，吉見圭一郎，清本節夫，堀正和(in rev)岩礁性の海藻・海草の被度と現存量の関係式.
 
-Masaaki Sato, Natsuki Hasegawa, Muraoka Daisuke, Toshimasa Kobayashi, Hideki Hamaoka, Kengo Suzuki, Toshihiro Onitsuka, Kenta Watanabe, Tomohiro Kuwae, Kenji Sudo, Hiromori Shimabukuro, Mahiko Abe9, Noboru Murase, Toshihito Ogura, Keiichirou Yoshimi, Setuo Kiyomoto, Masakazu Hori (2025) Coverage-biomass relationships for seaweeds and surfgrass in Japan.
+Masaaki Sato, Natsuki Hasegawa, Muraoka Daisuke, Toshimasa Kobayashi, Hideki Hamaoka, Kengo Suzuki, Toshihiro Onitsuka, Kenta Watanabe, Tomohiro Kuwae, Kenji Sudo, Hiromori Shimabukuro, Mahiko Abe, Noboru Murase, Toshihito Ogura, Keiichirou Yoshimi, Setuo Kiyomoto, Masakazu Hori (in rev) Coverage-biomass relationships for seaweeds and surfgrass in Japan.
 
