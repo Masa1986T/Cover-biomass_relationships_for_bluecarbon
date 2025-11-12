@@ -29,7 +29,7 @@ The folder "Plots" includes all results of figures obtained by running "xxx.R" a
 
 The folder "R code" shares the following programming codes to mrun the analyses and make figures.
 
-* Perform statistical analysis and make figures for relationships between cover and biomass of each species (xxx) for each region : xxx.R
+* Perform statistical analysis and make figures for relationships between cover and biomass of each species/group (xxx) for each region : xxx.R
 * Make figures for estimated biomass of each species (xxx) at 100% cover : xxx_cover100%.R
 
 
