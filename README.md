@@ -8,9 +8,10 @@ This repository provides datasets and R code for the analysis of cover-biomass r
 
 The raw data described below are housed in the folder "Data".
 
-* Data of cover and biomass for each seaweeds or surfgrass (xxx) at each site : xxx.csv
-* All of the data for each seaweeds or surfgrass at each site :Kaiso_data.xlsx
-
+* Data of cover and biomass for each seaweed or surfgrass group (xxx) at each site : xxx.csv
+* The all data for all seaweeds and surfgrass at all sites :Kaiso_data.xlsx
+* Description of each seaweed and sufgrass means as follow,
+* Kombu: Saccharina, Kajime: Ecklonia, Arame: Eisenia, Wakame: Undaria pinnatifida, Sugamo: Phyllospadix iwatensis.
 
 
 ## Plots
@@ -20,6 +21,7 @@ The folder "Plots" includes all results of figures obtained by running "xxx.R" a
 * Figures for the relationship between cover and biomass (i.e., model (mod z (z = 1, 2, or 3))) for each seaweeds or surfgrass (xxx) at site y  : xxx_y_mod z.svg
 * Figures for comparing the relationships between cover and biomass (i.e., model (mod z (z = 1, 2, or 3))) for each seaweeds or surfgrass (xxx) among regions  : xxx_comparison_wlegend.svg
 * Figures for the estimated biomass of all the models at 100% coverage for each seaweeds or surfgrass (xxx) with width aaaa : xxx100_Regiontype_aaaa.svg
+* Model1 is linear, Model2 is power and Model3 is exponential.
 
 
 
