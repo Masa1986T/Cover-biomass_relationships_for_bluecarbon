@@ -11,7 +11,7 @@ The raw data described below are housed in the folder "Data".
 * Data of cover and biomass for each seaweed or surfgrass group (xxx) at each site : xxx.csv
 * The all data for all seaweeds and surfgrass at all sites :Kaiso_data.xlsx
 * Description of each seaweed and sufgrass means as follow,
-* Kombu: Saccharina, Kajime: Ecklonia, Arame: Eisenia, Wakame: Undaria pinnatifida, Sugamo: Phyllospadix iwatensis.
+Kombu: Saccharina, Kajime: Ecklonia, Arame: Eisenia, Wakame: Undaria pinnatifida, Sugamo: Phyllospadix iwatensis.
 
 
 ## Plots
